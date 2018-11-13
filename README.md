@@ -75,7 +75,7 @@ The environment is considered as solved when the agent gets an average score of 
          Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip
          Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip
      
-         Place the downloaded file in the p1_navigation/ folder in the DRLND GitHub repository, 
+         Place the downloaded file in the p1_navigation/ as well as python/ folder in the DRLND GitHub repository, 
          and unzip (or decompress) the file.
 
       b) (For Windows users) Check out this link for getting help in determining if system is running a 32-bit version or 64-bit
@@ -90,4 +90,9 @@ The environment is considered as solved when the agent gets an average score of 
          (https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)
          and then download the environment for the Linux operating  system above.)
           
-
+# Details of running the Code to Train the Agent / Test the Already Trained Agents :
+  a) First of all clone this repository ( on locla system 
+  Open Anaconda prompt shell window and navigate inside the Python folder in cloned DRLND GitHub repository folder on local system
+  All the Source 
+  
+  
