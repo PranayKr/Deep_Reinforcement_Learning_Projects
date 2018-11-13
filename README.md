@@ -66,7 +66,15 @@ The environment is considered as solved when the agent gets an average score of 
           
      f) Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
      
-#  2) Download the Unity Environment :
+#  2) Install Unity ML-Agents associated libraries/modules:
+      a) Clone the Github Repository (https://github.com/Unity-Technologies/ml-agents.git)
+         and install the required libraries by running the below mentioned commands in the Anaconda Prompt
+         
+         git clone https://github.com/Unity-Technologies/ml-agents.git
+         cd ml-agents/ml-agents (navigate inside ml-agents subfolder)
+         pip install . or (pip install [all]) (install the modules required)
+               
+#  3) Download the Unity Environment :
       a) For this project, Unity is not necessary to be installed because readymade built environment has already been provided,
          and can be downloaded from one of the links below as per the operating system being used:
 
