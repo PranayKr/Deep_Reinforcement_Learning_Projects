@@ -71,9 +71,15 @@ The environment is considered as solved when the agent gets an average score of 
          Place the downloaded file in the p1_navigation/ folder in the DRLND GitHub repository, 
          and unzip (or decompress) the file.
 
-      b) (For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version 
-          or 64-            bit         version of the Windows operating system.
+      b) (For Windows users) Check out this link for getting help in determining if system is running a 32-bit version or 64-bit version          of the Windows operating system.
+         (https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)
+         
 
-      (For AWS) If the agent is to be trained on AWS (and a virtual screen is not enabled), then please use this link to obtain the           "headless" version of the environment.Watching the agent during training is not possible without enabling a virtual screen.             (To watch the agent,follow the instructions to enable a virtual screen, and then download the environment for the Linux operating       system above.)
+      c) (For AWS) If the agent is to be trained on AWS (and a virtual screen is not enabled), then please use this link 
+         (https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the "headless" version 
+         of the environment.Watching the agent during training is not possible without enabling a virtual screen.
+         (To watch the agent,follow the instructions to enable a virtual screen 
+         (https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)
+         and then download the environment for the Linux operating  system above.)
           
 
