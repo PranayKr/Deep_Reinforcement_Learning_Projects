@@ -40,14 +40,14 @@
      reward, demonstrating TD in action. The learning rate α decides how much to alter the current estimate and the
      discount rate γ decides how important future rewards (estimated action-value) are compared to the immediate reward.
      
-     
-   
-     
-  
-
-
 # Description of the Learning Algorithms used  
 
-1) Deep Q-Learning Algorithm 
+1) Deep Q-Learning Algorithm :
+   In modern Q-learning, the function Q is estimated using a neural network that takes a state as input
+   and outputs the predicted Q-values for each possible action. It is commonly denoted with Q(S, A, θ),
+   where θ denotes the network’s weights. The actual policy used for control can subsequently be
+   derived from Q by estimating the Q-values for each action give the current state and applying an
+   epsilon-greedy policy. Deep Q-learning simply means using multilayer feedforward neural networks or even
+   Convolutional Neural Networks (CNNs) to handle raw pixel input
    
 
