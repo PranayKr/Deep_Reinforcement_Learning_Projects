@@ -71,7 +71,8 @@ The environment is considered as solved when the agent gets an average score of 
          Place the downloaded file in the p1_navigation/ folder in the DRLND GitHub repository, 
          and unzip (or decompress) the file.
 
-      b) (For Windows users) Check out this link for getting help in determining if system is running a 32-bit version or 64-bit version          of the Windows operating system.
+      b) (For Windows users) Check out this link for getting help in determining if system is running a 32-bit version or 64-bit
+         version of the Windows operating system.
          (https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)
          
 
