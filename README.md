@@ -25,7 +25,7 @@ d) 3 - move right
 # Solution Criteria :
 The environment is considered as solved when the agent gets an average score of +13 over 100 consecutive episodes.
 
-# Installation Instructions to setup the Unity ML environment :
+# Installation Instructions to setup the Project Environment :
 # 1) Setting Up Python Environment :
      a) Create (and activate) a new environment with Python 3.6.:
      
@@ -60,6 +60,18 @@ The environment is considered as solved when the agent gets an average score of 
           
      e) Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
      
+#  2) Download the Unity Environment :
+      For this project, Unity is not necessary to be installed because readymade built environment has already been provided ,and can         be downloaded from one of the links below as per the operating system being used:
+
+      Linux: click here
+      Mac OSX: click here
+      Windows (32-bit): click here
+      Windows (64-bit): click here
      
+      Place the downloaded file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
+
+      (For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version or 64-bit         version of the Windows operating system.
+
+      (For AWS) If the agent is to be trained on AWS (and a virtual screen is not enabled), then please use this link to obtain the           "headless" version of the environment.Watching the agent during training is not possible without enabling a virtual screen.             (To watch the agent,follow the instructions to enable a virtual screen, and then download the environment for the Linux operating       system above.)
           
 
