@@ -53,7 +53,8 @@ The environment is considered as solved when the agent gets an average score of 
 
         pip install gym
          
-     d) Clone the repository and navigate to the python/ folder. Then, install several dependencies.
+     d) Clone the repository (https://github.com/udacity/deep-reinforcement-learning.git) and navigate to the python/ folder.
+        Then, install several dependencies by executing the below commands in Anaconda Prompt Shell :
           
         git clone https://github.com/udacity/deep-reinforcement-learning.git
         cd deep-reinforcement-learning/python
