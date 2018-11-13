@@ -25,9 +25,14 @@ d) 3 - move right
 # Solution Criteria :
 The environment is considered as solved when the agent gets an average score of +13 over 100 consecutive episodes.
 
-# Installation Instructions to setup the Project Environment :
+# Installation Instructions to setup the Project:
 # 1) Setting Up Python Environment :
-     a) Create (and activate) a new environment with Python 3.6.:
+     a) Download and install Anaconda 3 (latest version 5.3) from this link (https://www.anaconda.com/download/)
+        for the specific Operating System and Architecure (64-bit or 32-bit) being used
+        for Python 3.6 + version onwards
+        
+     b) Create (and activate) a new environment with Python 3.6.:
+        Open Anaconda prompt and then execute the below given commands
      
         Linux or Mac:
         conda create --name drlnd python=3.6
@@ -37,7 +42,7 @@ The environment is considered as solved when the agent gets an average score of 
         conda create --name drlnd python=3.6 
         activate drlnd
         
-     b) Minimal Installation of OpenAi Gym Environment
+     c) Minimal Installation of OpenAi Gym Environment
         Below are the instructions to do minimal install of gym :
 
         git clone https://github.com/openai/gym.git
@@ -48,17 +53,17 @@ The environment is considered as solved when the agent gets an average score of 
 
         pip install gym
          
-     c) Clone the repository and navigate to the python/ folder. Then, install several dependencies.
+     d) Clone the repository and navigate to the python/ folder. Then, install several dependencies.
           
         git clone https://github.com/udacity/deep-reinforcement-learning.git
         cd deep-reinforcement-learning/python
         pip install . (or pip install [all] )
           
-     d) Create an Ipython Kernel for the drlnd environment :
+     e) Create an Ipython Kernel for the drlnd environment :
           
         python -m ipykernel install --user --name drlnd --display-name "drlnd"
           
-     e) Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+     f) Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
      
 #  2) Download the Unity Environment :
       a) For this project, Unity is not necessary to be installed because readymade built environment has already been provided ,and can          be downloaded from one of the links below as per the operating system being used:
