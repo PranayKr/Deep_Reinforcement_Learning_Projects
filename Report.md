@@ -75,6 +75,29 @@
              The value of BETA parameter can be gradually increased over training to give more importance to weights getting updated
              during the later stages of training when the model is finally converging to the expected result
 
-   
+# Neural Net Architecture Used:
+  A multilayer feed-forward Neural Net Architecture was used with 2 Hidden layers each having 64 hidden neurons 
+  A ReLU (Rectified Linear Unit) Activation Function was used over the inputs of the 2 hidden layers
+  I tried initializing the weights as well in one implementation to see whether the learning of the model increases
+  but did not find much difference in the results achieved without Weight initialization of the Neural Net Layers
+  I tried to decay the learning rate as well in a modified implementation to achieve quicker results without any 
+  signifiacnt improvement in the training of the model
+ 
+# HyperParameters Used:
+  1) Number of Episodes : 5000
+  2) Max_Timesteps : 1000
+  3) Eps_start =1
+  4) Eps_End =0.01
+  5) Eps_Decay = 0.995
+  6) BUFFER_SIZE = int(1e5)  
+  7) BATCH_SIZE = 64
+  8) GAMMA= 0.99 (Discount Rate)
+  9) TAU = 1e-3 (for soft update of target parameters)
+  Extra Parameters for Prioritized Experience Replay Implementation :
+  10) ALPHA = 0.6    #Prioritization Exponent
+  11)  INIT_BETA = 0.4    #Importance Sampling Exponent 
+  
+  
+  
    
    
