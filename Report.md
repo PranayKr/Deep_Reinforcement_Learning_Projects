@@ -120,4 +120,10 @@
      
      A score of +16 achieved in 732 episodes
      
-     
+# CONCLUSION 
+  As is evident from the results achieved above by implementation of 3 different Algorithms 
+  Prioritized Experience Replay with Double Deep Q-net Algorithm performs the best conversing to the goal score in just 732 episodes
+  whereas Double Deep Q-net Algorithm converges to Goal sore in 816 episodes 
+  and a simple Deep Q-net Algorithm implementation takes the maximum number of episodes i.e. 964 to get to the target score of +16
+  
+
