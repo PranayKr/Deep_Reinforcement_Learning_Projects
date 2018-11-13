@@ -109,5 +109,9 @@
      A score of +16 achieved in 964 episodes
      
   2) Double Deep Q-learning Algorithm Results :
+     
+     ![doubledeepq-learning_result](https://user-images.githubusercontent.com/25223180/48403194-6786f600-e753-11e8-9139-d67f6f55f551.PNG)
+     
+     A score of +16 achieved in 916 episodes
    
-   
+  3) Prioritized Experience Replay with Double Deep Q-learning Algorithm Results :
