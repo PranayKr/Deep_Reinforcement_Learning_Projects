@@ -91,8 +91,59 @@ The environment is considered as solved when the agent gets an average score of 
          and then download the environment for the Linux operating  system above.)
           
 # Details of running the Code to Train the Agent / Test the Already Trained Agents :
-  a) First of all clone this repository ( on locla system 
-  Open Anaconda prompt shell window and navigate inside the Python folder in cloned DRLND GitHub repository folder on local system
-  All the Source 
+  a) First of all clone this repository (https://github.com/PranayKr/Deep_Reinforcement_Learning_Projects.git) on local system 
+     Open Anaconda prompt shell window and navigate inside the python/ folder in above mentioned cloned repository folder
+     All the Source code files and pretrained model weights are present here alongwith with downloaded unity environment
+     file for Windows (64-bit) OS
+     
+     NOTE: All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab
+       
+     1) Vanilla Deep Q-net algorithm Training / Testing Details :
+        Files Used : 
+        
+        For Training : Open either of the below mentioned Jupyter Notebook and execute all the cells
+        
+        1) DeepQ-Net_Navigation_Solution-LR_(1e-4).ipynb (using Learning Rate Hyperparameter val : 1e-4)
+        2) DeepQ-Net_Navigation_Solution-LR_(5e-4).ipynb (using Learning Rate Hyperparameter val : 5e-4)
+        3) DeepQ-Net_Navigation_Solution-LR_(5e-5).ipynb (using Learning Rate Hyperparameter val : 5e-5)
+        
+        Neural Net Model Architecture file Used : NN_Model.py
+        The Unity Agent file used : DeepQN_Agent.py
+        
+        For Testing : open the Jupyter Notebook file DeepQ-Net_Test.ipynb and run the code to test the 
+                      results obtained using Pre-trained model weights
+                      
+        Pretrained Model Weights provided : 1)DQN_Checkpoint.pth
+                                            2)DQN_Checkpoint_2.pth
+                                            3)DQN_Checkpoint_3.pth
+        
+     2) Double Deep Q-net algorithm Training / Testing Details :
+        Files Used : 
+        
+        For Training : Open either of the below mentioned Jupyter Notebook and execute all the cells
+        
+        1) DoubleDeepQ-Net_Navigation_Solution.ipynb 
+        2) DoubleDeepQ-Net_Navigation_Solution2.ipynb 
+        3) DoubleDeepQ-Net_Navigation_Solution-RewardsClipped.ipynb
+        4) DoubleDeepQ-Net_Navigation_Solution-RewardsClipped-LRDecay.ipynb
+        
+        Neural Net Model Architecture file Used : DDQN_NN_Model.py
+        The Unity Agent file used : 1) DoubleDeepQN_Agent.py
+                                    2) DoubleDeepQN_Agent_WeightsInitialized.py
+        
+        For Testing : open the Jupyter Notebook file DoubleDeepQ-Net_Test.ipynb and run the code to test the 
+                      results obtained using Pre-trained model weights
+                      
+        Pretrained Model Weights provided : 1)DoubleDQN_Checkpoint_1.pth
+                                            2)DoubleDQN_Checkpoint_1_RewardsClipped.pth
+                                            3)DoubleDQN_Checkpoint_2.pth
+        
+                     
+        
+        
+          
+     
+     
+     
   
   
