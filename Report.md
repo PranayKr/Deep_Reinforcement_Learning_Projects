@@ -86,9 +86,9 @@
 # HyperParameters Used:
   1) Number of Episodes : 5000
   2) Max_Timesteps : 1000
-  3) Eps_start =1
-  4) Eps_End =0.01
-  5) Eps_Decay = 0.995
+  3) Eps_start =1   (Beginning Epsilon value used in e-greedy policy)
+  4) Eps_End =0.01  (Lower Limit Epsilon value used in e-greedy policy)
+  5) Eps_Decay = 0.995 (factor by which Epsilon value gets reduced)
   6) BUFFER_SIZE = int(1e5)  
   7) BATCH_SIZE = 64
   8) GAMMA= 0.99 (Discount Rate)
