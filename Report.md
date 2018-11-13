@@ -63,4 +63,9 @@
 2) Double Deep Q-Learning Algorithm :
    Deep Q-Learning is based upon Q-learning algorithm with a deep neural network as the function approximator. However, one issue that      Q-learning suffers from is the over estimation of the TD target in its update equation. The expected value is always greater than or    equal to the greedy action of the expected value. As a result, Q-learning ends up overestimating the q-values thereby degrading          learning efficiency. To address it, we use the double Q-learning algorithm where there are two separate q-tables. And at each time      step, we randomly decide which q-table to use and use the greedy action from one q-table to evaluate the q-value of the other q-table
    
-
+3) Prioritized Experience Replay with Double Deep Q-Learning Algorithm :
+   For memory replay, the agent collects tuples of (state, reward, next_state, action, done) and reuses them for future learning. In        case of prioritised replay the agent has to assign priority to each tuple, corresponding to their contribution to learning. After        that, these tuples are reused based on their priorities, leading to more efficient learning.
+   
+   
+   
+   
