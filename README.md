@@ -61,16 +61,18 @@ The environment is considered as solved when the agent gets an average score of 
      e) Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
      
 #  2) Download the Unity Environment :
-      For this project, Unity is not necessary to be installed because readymade built environment has already been provided ,and can         be downloaded from one of the links below as per the operating system being used:
+      a) For this project, Unity is not necessary to be installed because readymade built environment has already been provided ,and can          be downloaded from one of the links below as per the operating system being used:
 
-      Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip
-      Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip
-      Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip
-      Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip
+         Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip
+         Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip
+         Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip
+         Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip
      
-      Place the downloaded file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
+         Place the downloaded file in the p1_navigation/ folder in the DRLND GitHub repository, 
+         and unzip (or decompress) the file.
 
-      (For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version or 64-bit         version of the Windows operating system.
+      b) (For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version 
+          or 64-            bit         version of the Windows operating system.
 
       (For AWS) If the agent is to be trained on AWS (and a virtual screen is not enabled), then please use this link to obtain the           "headless" version of the environment.Watching the agent during training is not possible without enabling a virtual screen.             (To watch the agent,follow the instructions to enable a virtual screen, and then download the environment for the Linux operating       system above.)
           
