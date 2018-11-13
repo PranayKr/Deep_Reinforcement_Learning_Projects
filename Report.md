@@ -15,19 +15,35 @@
      corresponds to the total reward an agent can accumulate starting from that state. The action-value
      function corresponding to the long-term reward after taking action a in state s is commonly referred
      to as Q-value and forms the basis for the most widely used RL technique called Q-Learning
-     
-  b) Q-Learning:
+ 
+  b) Temporal Difference Learning :
+     Temporal Difference learning is a central idea to modern day RL and works by updating estimates for the 
+     action-value function based on other estimates. This ensures the agent does not have to wait until the 
+     actual cumulative reward after completing an episode to update its estimates, but is able to learn from 
+     each action.
+      
+  c) Q-Learning:
      Q-learning is an off-policy Temporal Difference (TD) Control algorithm. Off-policy methods evaluate
      or improve a policy that differs from the policy used to make decisions. These decisions can thus be
      made by a human expert or random policy, generating (state, action, reward, new state) entries to
      learn an optimal policy from.
      
-  c) Temporal Difference Learning :
-     Temporal Difference learning is a central idea to modern day RL and works by updating estimates for the 
-     action-value function based on other estimates. This ensures the agent does not have to wait until the 
-     actual cumulative reward after completing an episode to update its estimates, but is able to learn from 
-     each action.
+     Q-learning learns a function Q that approximates the optimal action-value function. It does this by randomly 
+     initializing Q and then generating actions using a policy derived from Q, such as e-greedy. An e-greedy policy 
+     chooses the action with the highest Q value or a random action with a (low) probability of , promoting exploration 
+     as e (epsilon) increases. With this newly generated (state (St), action (At), reward (Rt+1), new state (St+1)) pair,
+     Q is updated using rule 1.
      
+     This update rule essentially states that the current estimate must be updated using the received immediate reward 
+     plus a discounted estimation of the maximum action-value for the new state. It is important to note here that the 
+     update is done immediately after performing the action using an estimate instead of waiting for the true cumulative
+     reward, demonstrating TD in action. The learning rate α decides how much to alter the current estimate and the
+     discount rate γ decides how important future rewards (estimated action-value) are compared to the immediate reward.
+     
+     
+   
+     
+  
 
 
 # Description of the Learning Algorithms used  
