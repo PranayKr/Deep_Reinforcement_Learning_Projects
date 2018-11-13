@@ -129,9 +129,7 @@
   whereas Double Deep Q-net Algorithm converges to Goal sore in 816 episodes 
   and a simple Deep Q-net Algorithm implementation takes the maximum number of episodes i.e. 964 to get to the target score of +16
   
-  Best Results were achieved with Learning Rate of 1e-4 in all the 3 implementations
-  In case of Double Deep Q-Net implemenation rewards achieved during training were clipped to be in the range of -1 to 1 
-  to remove outliers during training 
+  Best Results were achieved with Learning Rate of 1e-4 in all the 3 implementations and in case of Double Deep Q-Net implemenation       rewards achieved during training were clipped to be in the range of -1 to 1 to remove outliers during training 
   
 # Ideas for Future Works (Scope for further improvements)
   
