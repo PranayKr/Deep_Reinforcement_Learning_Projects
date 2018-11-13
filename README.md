@@ -1,4 +1,4 @@
-# Implementation of Vanilla Deep Q-Learning / Double Deep Q-Learning and Double Deep Q-Learning with Prioritized Experience Replay  Algorithms to solve Banana-Collector Unity ML-Agent Navigation Problem Statement using Multi-Layer Feedforward Neural Network Model with Pytorch Library
+# Implementation of a) Vanilla Deep Q-Learning , b) Double Deep Q-Learning and c) Double Deep Q-Learning with Prioritized Experience Replay  Algorithms to solve Banana-Collector Unity ML-Agent Navigation Problem Statement using Multi-Layer Feedforward Neural Network Model with Pytorch Library
 
 # Problem Statement Description 
 For this project, the task is to train an agent to navigate in a large, square world, while collecting yellow bananas, and avoiding blue bananas. A reward of +1 is provided for collecting a yellow banana, and a reward(i.e. penalty) of -1 is provided for collecting a blue banana. Thus, the goal is to collect as many yellow bananas as possible while avoiding blue bananas.
