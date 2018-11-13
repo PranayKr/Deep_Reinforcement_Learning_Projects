@@ -94,8 +94,8 @@
   8) GAMMA= 0.99 (Discount Rate)
   9) TAU = 1e-3 (for soft update of target parameters)
   # Extra Parameters for Prioritized Experience Replay Implementation :
-  10) ALPHA = 0.6    #Prioritization Exponent
-  11)  INIT_BETA = 0.4    #Importance Sampling Exponent 
+  10) ALPHA = 0.6    (Prioritization Exponent)
+  11)  INIT_BETA = 0.4   (Importance Sampling Exponent) 
   
   
   
