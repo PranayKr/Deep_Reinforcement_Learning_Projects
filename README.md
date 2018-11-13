@@ -96,7 +96,9 @@ The environment is considered as solved when the agent gets an average score of 
      All the Source code files and pretrained model weights are present here alongwith with downloaded unity environment
      file for Windows (64-bit) OS
      
-     NOTE: All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab
+     NOTE: 1) All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab
+           2) Please change the name of the (*.pth) file where the model weights are getting saved during training to
+              avoid overwriting of already existing pre-trained model weights existing currently with the same filename
        
      1) Vanilla Deep Q-net algorithm Training / Testing Details :
         Files Used : 
@@ -110,7 +112,7 @@ The environment is considered as solved when the agent gets an average score of 
         Neural Net Model Architecture file Used : NN_Model.py
         The Unity Agent file used : DeepQN_Agent.py
         
-        For Testing : open the Jupyter Notebook file DeepQ-Net_Test.ipynb and run the code to test the 
+        For Testing : open the Jupyter Notebook file "DeepQ-Net_Test.ipynb" and run the code to test the 
                       results obtained using Pre-trained model weights
                       
         Pretrained Model Weights provided : 1)DQN_Checkpoint.pth
@@ -131,13 +133,29 @@ The environment is considered as solved when the agent gets an average score of 
         The Unity Agent file used : 1) DoubleDeepQN_Agent.py
                                     2) DoubleDeepQN_Agent_WeightsInitialized.py
         
-        For Testing : open the Jupyter Notebook file DoubleDeepQ-Net_Test.ipynb and run the code to test the 
+        For Testing : open the Jupyter Notebook file "DoubleDeepQ-Net_Test.ipynb" and run the code to test the 
                       results obtained using Pre-trained model weights
                       
         Pretrained Model Weights provided : 1)DoubleDQN_Checkpoint_1.pth
                                             2)DoubleDQN_Checkpoint_1_RewardsClipped.pth
                                             3)DoubleDQN_Checkpoint_2.pth
+                                            
+                                            
+     3) Double Deep Q-net with Priority Experience Replay algorithm Training / Testing Details :
+        Files Used : 
         
+        For Training : Open the below mentioned Jupyter Notebook and execute all the cells
+        
+        1) PrioritizedExpReplaay_DoubleDeepQ-Net_Navigation_Solution.ipynb 
+       
+        Neural Net Model Architecture file Used : DDQN_NN_Model.py
+        The Unity Agent file used : PriorityExpReplay_DoubleDeepQN_Agent.py
+        
+        For Testing : open the Jupyter Notebook file "PriorityExp_DoubleDeepQ-Net_Test.ipynb" and run the code to test the 
+                      results obtained using Pre-trained model weights
+                      
+        Pretrained Model Weights provided : PriorityExpDoubleDQN_Checkpoint_1.pth
+                                            
                      
         
         
