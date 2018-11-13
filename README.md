@@ -91,7 +91,7 @@ The environment is considered as solved when the agent gets an average score of 
          and then download the environment for the Linux operating  system above.)
           
 # Details of running the Code to Train the Agent / Test the Already Trained Agents :
-     First of all clone this repository (https://github.com/PranayKr/Deep_Reinforcement_Learning_Projects.git) on local system 
+  a) First of all clone this repository (https://github.com/PranayKr/Deep_Reinforcement_Learning_Projects.git) on local system 
      Open Anaconda prompt shell window and navigate inside the python/ folder in above mentioned cloned repository folder
      All the Source code files and pretrained model weights are present here alongwith with downloaded unity environment
      file for Windows (64-bit) OS
