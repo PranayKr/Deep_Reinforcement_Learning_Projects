@@ -40,6 +40,16 @@
      reward, demonstrating TD in action. The learning rate α decides how much to alter the current estimate and the
      discount rate γ decides how important future rewards (estimated action-value) are compared to the immediate reward.
      
+ d) Experience Replay:
+    Experience Replay is a mechanism to store previous experience (St, At, Rt+1, St+1) in a fixed size buffer. 
+    Minibatches are then randomly sampled, added to the current time step’s experience and used to incrementally 
+    train the neural network. This method counters catastrophic forgetting, makes more efficient use of data by 
+    training on it multiple times, and exhibits better convergence behaviour
+    
+ e) Fixed Q Targets :
+    In the Q-learning algorithm using a function approximator, the TD target is also dependent on the network parameter w that is           being learnt/updatet, and this can lead to instabilities. To address it, a separate network with identical architecture but             different weights is used. And the weights of this separate target network are updated every few steps to be equal to the local         network that is continuously being updated.
+ 
+     
 # Description of the Learning Algorithms used  
 
 1) Deep Q-Learning Algorithm :
@@ -49,5 +59,8 @@
    derived from Q by estimating the Q-values for each action give the current state and applying an
    epsilon-greedy policy. Deep Q-learning simply means using multilayer feedforward neural networks or even
    Convolutional Neural Networks (CNNs) to handle raw pixel input
+   
+2) Double Deep Q-Learning Algorithm :
+   Deep Q-Learning is based upon Q-learning algorithm with a deep neural network as the function approximator. However, one issue that      Q-learning suffers from is the over estimation of the TD target in its update equation. The expected value is always greater than or    equal to the greedy action of the expected value. As a result, Q-learning ends up overestimating the q-values thereby degrading          learning efficiency. To address it, we use the double Q-learning algorithm where there are two separate q-tables. And at each time      step, we randomly decide which q-table to use and use the greedy action from one q-table to evaluate the q-value of the other q-table
    
 
