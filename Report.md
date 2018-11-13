@@ -97,7 +97,10 @@
   10) ALPHA = 0.6    (Prioritization Exponent)
   11)  INIT_BETA = 0.4   (Importance Sampling Exponent) 
   
+# Plot of Rewards per Episode 
   
+  1) Deep Q-learning Algorithm Results 
+     
   
    
    
