@@ -126,4 +126,20 @@
   whereas Double Deep Q-net Algorithm converges to Goal sore in 816 episodes 
   and a simple Deep Q-net Algorithm implementation takes the maximum number of episodes i.e. 964 to get to the target score of +16
   
-
+# Ideas for Future Works (Scope for further improvements)
+  
+  Better Results can be achived by using the below mentioned approaches 
+  
+  1) Implementation of Duelling Deep Q-Network with Prioritized Experience Replay
+  
+  2) Implementation of Rainbow Algorithm encompassing the feautures and logic of all the below mentioned approaches :
+     a) Double Deep Q-Network 
+     b) Prioritized Experience Replay 
+     c) Duelling Deep Q-Network 
+     d) Mulit-step Bootstrap Tragets
+     e) Distributional Deep Q-network
+     f) Noisy Deep Q-network
+     
+  3) Using Convolutio0nal Neural Network (CNN) architecture instead of Multilayer Feedforward Neural Network model
+     to train the agent directly from Pixels (Input Images of the environment)
+     
