@@ -65,7 +65,16 @@
    
 3) Prioritized Experience Replay with Double Deep Q-Learning Algorithm :
    For memory replay, the agent collects tuples of (state, reward, next_state, action, done) and reuses them for future learning. In        case of prioritised replay the agent has to assign priority to each tuple, corresponding to their contribution to learning. After        that, these tuples are reused based on their priorities, leading to more efficient learning.
-   
+   Two new parameters are introduced for this implementation 
+   1) ALPHA : Prioritzation Exponent which can be tweaked to determine how much factor random sampling could be reintroduced to avoid 
+      overfitting by just using Prioritized Experience Samples 
+      A value of 1 for ALPHA corresponds to using only Prioritized Experience Samples
+      a VALUE OF 0 for ALPHA corresponds to using only experience samples at random
+   2) BETA : Importance Sampling Weoghts Exponent which is used to determine by how much factor are the weights of Q-net model
+             get modified while training
+             The value of BETA parameter can be gradually increased over training to give more importance to weights getting updated
+             during the later stages of training when the model is finally converging to the expected result
+
    
    
    
