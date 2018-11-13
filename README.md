@@ -3,7 +3,7 @@
 # Problem Statement Description 
 For this project, the task is to train an agent to navigate in a large, square world, while collecting yellow bananas, and avoiding blue bananas. A reward of +1 is provided for collecting a yellow banana, and a reward(i.e. penalty) of -1 is provided for collecting a blue banana. Thus, the goal is to collect as many yellow bananas as possible while avoiding blue bananas.
 
-# Results Showcase 
+# Results Showcase :
 ![banana-collector_untrained_agent](https://user-images.githubusercontent.com/25223180/48391940-00efe100-e72f-11e8-9710-7e425a0e6dbd.gif)
 # An Untrained Agent navigating at random in the environment
 
