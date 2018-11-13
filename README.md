@@ -63,10 +63,10 @@ The environment is considered as solved when the agent gets an average score of 
 #  2) Download the Unity Environment :
       For this project, Unity is not necessary to be installed because readymade built environment has already been provided ,and can         be downloaded from one of the links below as per the operating system being used:
 
-      Linux: click here
-      Mac OSX: click here
-      Windows (32-bit): click here
-      Windows (64-bit): click here
+      Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip
+      Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip
+      Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip
+      Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip
      
       Place the downloaded file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
 
