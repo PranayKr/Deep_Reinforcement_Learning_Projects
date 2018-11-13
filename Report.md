@@ -93,9 +93,12 @@
   7) BATCH_SIZE = 64
   8) GAMMA= 0.99 (Discount Rate)
   9) TAU = 1e-3 (for soft update of target parameters)
+  10) Target Goal Score : greater than or equal to 16
   # Extra Parameters for Prioritized Experience Replay Implementation :
   10) ALPHA = 0.6    (Prioritization Exponent)
   11)  INIT_BETA = 0.4   (Importance Sampling Exponent) 
+  
+  
   
 # Plot of Rewards per Episode 
   
@@ -103,8 +106,8 @@
 
      ![deep-q_learning_result](https://user-images.githubusercontent.com/25223180/48402755-6dc8a280-e752-11e8-829c-f272ce052c36.PNG)     
      
-     A score of =16 achieved in 964 episodes
+     A score of +16 achieved in 964 episodes
      
-  
+  2) Double Deep Q-learning Algorithm Results :
    
    
