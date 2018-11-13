@@ -99,7 +99,7 @@
   
 # Plot of Rewards per Episode 
   
-#  1) Deep Q-learning Algorithm Results :
+  1) Deep Q-learning Algorithm Results :
 
      ![deep-q_learning_result](https://user-images.githubusercontent.com/25223180/48402755-6dc8a280-e752-11e8-829c-f272ce052c36.PNG)     
      
