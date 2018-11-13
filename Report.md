@@ -82,6 +82,9 @@
   but did not find much difference in the results achieved without Weight initialization of the Neural Net Layers
   I tried to decay the learning rate as well in a modified implementation to achieve quicker results without any 
   signifiacnt improvement in the training of the model
+  
+  Besides in the Double Deep Q-Net implemenation Rewards achieved during training were clipped to be in the range of -1 to 1 
+  to remove outliers during training 
  
 # HyperParameters Used:
   1) Number of Episodes : 5000
@@ -102,13 +105,13 @@
   
 # Plot of Rewards per Episode 
   
-  1) Deep Q-learning Algorithm Results :
+  1) Deep Q-learning Algorithm Results (Best Result achieved using Learning Rate 1e-4) :
 
      ![deep-q_learning_result](https://user-images.githubusercontent.com/25223180/48402755-6dc8a280-e752-11e8-829c-f272ce052c36.PNG)     
      
-     A score of +16 achieved in 964 episodes
+     A score of +16 achieved in 964 episodes using Learning Rate 1e-4 
      
-  2) Double Deep Q-learning Algorithm Results :
+  2) Double Deep Q-learning Algorithm Results (Best Result achieved by Clipping the Rewards in the range of -1 to 1) :
      
      ![doubledeepq-learning_result](https://user-images.githubusercontent.com/25223180/48403194-6786f600-e753-11e8-9139-d67f6f55f551.PNG)
      
@@ -125,6 +128,10 @@
   Prioritized Experience Replay with Double Deep Q-net Algorithm performs the best conversing to the goal score in just 732 episodes
   whereas Double Deep Q-net Algorithm converges to Goal sore in 816 episodes 
   and a simple Deep Q-net Algorithm implementation takes the maximum number of episodes i.e. 964 to get to the target score of +16
+  
+  Best Results were achieved with Learning Rate of 1e-4 in all the 3 implementations
+  In case of Double Deep Q-Net implemenation rewards achieved during training were clipped to be in the range of -1 to 1 
+  to remove outliers during training 
   
 # Ideas for Future Works (Scope for further improvements)
   
