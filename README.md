@@ -66,7 +66,8 @@ The environment is considered as solved when the agent gets an average score of 
      f) Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
      
 #  2) Download the Unity Environment :
-      a) For this project, Unity is not necessary to be installed because readymade built environment has already been provided ,and can          be downloaded from one of the links below as per the operating system being used:
+      a) For this project, Unity is not necessary to be installed because readymade built environment has already been provided,
+         and can be downloaded from one of the links below as per the operating system being used:
 
          Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip
          Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip
