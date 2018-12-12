@@ -4,3 +4,5 @@ For this project, the task is to train a double-jointed Robotic Arm which can re
 # Results Showcase :
 ![reacher_single_untrained_agent](https://user-images.githubusercontent.com/25223180/49904809-68659180-fe91-11e8-8ecd-2cfbab77e3eb.gif)
 # An Untrained Robotic Arm Agent taking random actions failing to reach out to the moving Target location 
+![reacher_single_trained_agent](https://user-images.githubusercontent.com/25223180/49905013-33a60a00-fe92-11e8-8d05-c0be95ba0d75.gif)
+# A Trained Robotic Arm Agent consistently reaching out to the moving Target location
