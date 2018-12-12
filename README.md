@@ -13,7 +13,9 @@ The Action Sapce is continuous. Each action ia a vector with 4 numbers (size:4) 
 # Solution Criteria :
 # 1) Single-Agent Reacher Environment : 
      Only one robotic arm agent is present and the task is episodic.
-     The environment is considered as solved when the agent gets an average score of +30 over 100 consecutive episodes. 
+     The environment is considered as solved when the agent gets an average score of +30
+     over 100 consecutive episodes. 
 # 2) Multi-Agent Reacher Environment :
      There are 20 identical robotic arm agents each with its own copy of the environment
-     The enviornment is considered as solved when all the 20 agents collectively get an average score of +30 over 100 consecutive episodes
+     The enviornment is considered as solved when all the 20 agents collectively get an average score of +30
+     over 100 consecutive episodes.
