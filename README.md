@@ -113,24 +113,24 @@ The current implementation has been done only for the Single-Agent Reacher Envir
      the Deep-RL cloned repository folder.
   5) Open Anaconda prompt shell window and navigate inside the python/ folder in the Deep-RL cloned repository folder.
      
-  NOTE: 1) All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab
-        2) Please change the name of the (*.pth) file where the model weights are getting saved during training to
-           avoid overwriting of already existing pre-trained model weights existing currently with the same filename
+     NOTE: 1) All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab
+           2) Please change the name of the (*.pth) file where the model weights are getting saved during training to
+              avoid overwriting of already existing pre-trained model weights existing currently with the same filename
               
-  Deep Deterministic Policy Gradient Algorithm Training / Testing Details :
-  Files Used : 
+     Deep Deterministic Policy Gradient Algorithm Training / Testing Details :
+     Files Used : 
         
-  For Training : Open the below mentioned Jupyter Notebook and execute all the cells
+     For Training : Open the below mentioned Jupyter Notebook and execute all the cells
         
-  Continuous_Control-Reacher_SingleAgent_DDPG_WorkingSoln.ipynb 
+     Continuous_Control-Reacher_SingleAgent_DDPG_WorkingSoln.ipynb 
        
-  Neural Net Model Architecture file Used : ModelTest.py
-  The Unity Agent file used : Test2_Agent.py
+     Neural Net Model Architecture file Used : ModelTest.py
+     The Unity Agent file used : Test2_Agent.py
         
-  For Testing : open the Jupyter Notebook file "DDPGAgent_Test.ipynb" and run the code to test the 
-                results obtained using Pre-trained model weights for Actor Neural-Net Model and
-                Critic Neural-Net Model
+     For Testing : open the Jupyter Notebook file "DDPGAgent_Test.ipynb" and run the code to test the 
+                   results obtained using Pre-trained model weights for Actor Neural-Net Model and
+                   Critic Neural-Net Model
                       
-  Pretrained Model Weights provided : 1) checkpoint_actor.pth  
-                                      2) checkpoint_critic.pth
+     Pretrained Model Weights provided : 1) checkpoint_actor.pth  
+                                         2) checkpoint_critic.pth
               
