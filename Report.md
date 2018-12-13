@@ -84,8 +84,8 @@
     c) Policy-Based Methods are best suited for estimating optimal policy for environments with Continuous Action-Spaces as they
        directly map a state to action unlike Value-Based Methods which need to first estimate the best action for each state which
        can be carried out provided that the action space is discrete with finite number of actions ; but in case of Continuous 
-       Action Space the Value-Based Methods need to find the global maximum of a non-trivial continuous function which turns out
-       to be an Optimization Problem in itself.
+       Action Space the Value-Based Methods need to find the global maximum of a non-trivial continuous action function which 
+       turns out to be an Optimization Problem in itself.
     
     
 # Description of the Learning Algorithm used  
