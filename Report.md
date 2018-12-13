@@ -1,2 +1,5 @@
 # A brief introduction to the Problem Statement
-  
+  Using a Single-Agent version of the Multi-Agent Reacher Unity ML-Agent environment, the objective of the project is to train a double-     jointed Robotic Arm Agent which can reach out to target locations (green sphere revolving around the robotic arm) to maintain its         position at the target location for as many timesteps as possible even as the target moves dynamically changing its position real-time.
+  A reward of + 0.1 is provided for each timestep that the robotic arm agent is at the goal location. The agent’s observation space         consists of 33 variables corresponding to position,rotation,velocity and angular velocities of the double-jointed Robotic Arm.
+  The agent's action space is continuous. Each action ia a vector with 4 numbers (size:4) corresponding to torque applicable to two
+  joints of the Robotic Arm. Every entry in action vector should be in the range of (-1,1). The task is episodic, and in order to solve     the environment, the agent must get an average score of +30 over 100 consecutive episodes.
