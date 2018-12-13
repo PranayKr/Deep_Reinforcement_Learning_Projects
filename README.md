@@ -87,7 +87,7 @@ The current implementation has been done only for the Single-Agent Reacher Envir
             Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip
             
      
-         Place the downloaded file in the p1_navigation/ as well as python/ folder in the DRLND GitHub repository, 
+         Place the downloaded file in the p2_continuous-control/ as well as python/ folder in the DRLND GitHub repository, 
          and unzip (or decompress) the file.
 
       b) (For Windows users) Check out this link for getting help in determining if system is running a 32-bit version or 64-bit
@@ -104,3 +104,30 @@ The current implementation has been done only for the Single-Agent Reacher Envir
          (https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)
          and then download the environment for the Linux operating  system above.)         
 
+# Details of running the Code to Train the Agent / Test the Already Trained Agents :
+  a) First of all clone this repository (https://github.com/PranayKr/Deep_Reinforcement_Learning_Projects.git) on local system 
+     Open Anaconda prompt shell window and navigate inside the python/ folder in above mentioned cloned repository folder
+     All the Source code files and pretrained model weights are present here alongwith with downloaded unity environment
+     file for Windows (64-bit) OS
+     
+     NOTE: 1) All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab
+           2) Please change the name of the (*.pth) file where the model weights are getting saved during training to
+              avoid overwriting of already existing pre-trained model weights existing currently with the same filename
+              
+     Deep Deterministic Policy Gradient Algorithm Training / Testing Details :
+     Files Used : 
+        
+     For Training : Open the below mentioned Jupyter Notebook and execute all the cells
+        
+     1) Continuous_Control-Reacher_SingleAgent_DDPG_WorkingSoln.ipynb 
+       
+     Neural Net Model Architecture file Used : ModelTest.py
+     The Unity Agent file used : Test2_Agent.py
+        
+     For Testing : open the Jupyter Notebook file "DDPGAgent_Test.ipynb" and run the code to test the 
+                   results obtained using Pre-trained model weights for Actor Neural-Net Model and
+                   Critic Neural-Net Model
+                      
+     Pretrained Model Weights provided : 1) checkpoint_actor.pth  
+                                         2) checkpoint_critic.pth
+              
