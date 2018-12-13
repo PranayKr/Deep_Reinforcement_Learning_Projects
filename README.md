@@ -119,7 +119,7 @@ The current implementation has been done only for the Single-Agent Reacher Envir
      the drlnd environment by using the drop-down Kernel menu.  
   8) The source code present in the provided training and testing notebooks(.ipynb files) can also be collated in 
      respective new python files(.py files) and then executed directly from the Anaconda prompt shell window using 
-     the command "python <filename.py>"
+     the command "python <filename.py>".
      
   NOTE:
   1) All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab.
