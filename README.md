@@ -113,9 +113,10 @@ The current implementation has been done only for the Single-Agent Reacher Envir
      the Deep-RL cloned repository folder.
   5) Open Anaconda prompt shell window and navigate inside the python/ folder in the Deep-RL cloned repository folder.
      
-  NOTE: 1) All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab.
-        2) Please change the name of the (*.pth) file where the model weights are getting saved during training to
-           avoid overwriting of already existing pre-trained model weights existing currently with the same filename.
+  NOTE:
+  1) All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab.
+  2) Please change the name of the (*.pth) file where the model weights are getting saved during training to
+     avoid overwriting of already existing pre-trained model weights existing currently with the same filename.
               
      Deep Deterministic Policy Gradient Algorithm Training / Testing Details :
      Files Used : 
