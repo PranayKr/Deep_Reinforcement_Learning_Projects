@@ -118,9 +118,8 @@ The current implementation has been done only for the Single-Agent Reacher Envir
   2) Please change the name of the (*.pth) file where the model weights are getting saved during training to
      avoid overwriting of already existing pre-trained model weights existing currently with the same filename.
               
-  Deep Deterministic Policy Gradient Algorithm Training / Testing Details :
-  Files Used : 
-        
+  Deep Deterministic Policy Gradient Algorithm Training / Testing Details (Files Used) : 
+          
      For Training : Open the below mentioned Jupyter Notebook and execute all the cells
         
      Continuous_Control-Reacher_SingleAgent_DDPG_WorkingSoln.ipynb 
