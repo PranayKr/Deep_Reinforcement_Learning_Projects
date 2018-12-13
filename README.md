@@ -99,18 +99,21 @@ The environment is considered as solved when the agent gets an average score of 
          and then download the environment for the Linux operating  system above.)
           
 # Details of running the Code to Train the Agent / Test the Already Trained Agents :
-  a) First of all clone this repository (https://github.com/PranayKr/Deep_Reinforcement_Learning_Projects.git) on local system 
-     Open Anaconda prompt shell window and navigate inside the python/ folder in above mentioned cloned repository folder
-     All the Source code files and pretrained model weights are present here alongwith with downloaded unity environment
-     file for Windows (64-bit) OS
+  1) First of all clone this repository (https://github.com/PranayKr/Deep_Reinforcement_Learning_Projects.git) on local system.
+  2) Also clone the repository (https://github.com/udacity/deep-reinforcement-learning.git) mentioned previously on local system.
+  3) Now place all the Source code files and pretrained model weights present in this cloned GitHub Repo inside the python/ folder 
+     of the Deep-RL cloned repository folder.
+  4) Next place the folder containing the downloaded unity environment file for Windows (64-bit) OS inside the python/ folder of 
+     the Deep-RL cloned repository folder.
+  5) Open Anaconda prompt shell window and navigate inside the python/ folder in the Deep-RL cloned repository folder.
      
-     NOTE: 1) All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab
-           2) Please change the name of the (*.pth) file where the model weights are getting saved during training to
-              avoid overwriting of already existing pre-trained model weights existing currently with the same filename
+  NOTE: 
+  1) All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab
+  2) Please change the name of the (*.pth) file where the model weights are getting saved during training to
+     avoid overwriting of already existing pre-trained model weights existing currently with the same filename
        
-     1) Vanilla Deep Q-net algorithm Training / Testing Details :
-        Files Used : 
-        
+  1) Vanilla Deep Q-net algorithm Training / Testing Details (Files Used) : 
+                
         For Training : Open either of the below mentioned Jupyter Notebook and execute all the cells
         
         1) DeepQ-Net_Navigation_Solution-LR_(1e-4).ipynb (using Learning Rate Hyperparameter val : 1e-4)
@@ -127,9 +130,8 @@ The environment is considered as solved when the agent gets an average score of 
                                             2)DQN_Checkpoint_2.pth
                                             3)DQN_Checkpoint_3.pth
         
-     2) Double Deep Q-net algorithm Training / Testing Details :
-        Files Used : 
-        
+  2) Double Deep Q-net algorithm Training / Testing Details (Files Used) : 
+                
         For Training : Open either of the below mentioned Jupyter Notebook and execute all the cells
         
         1) DoubleDeepQ-Net_Navigation_Solution.ipynb 
@@ -149,12 +151,11 @@ The environment is considered as solved when the agent gets an average score of 
                                             3)DoubleDQN_Checkpoint_2.pth
                                             
                                             
-     3) Double Deep Q-net with Priority Experience Replay algorithm Training / Testing Details :
-        Files Used : 
-        
+  3) Double Deep Q-net with Priority Experience Replay algorithm Training / Testing Details (Files Used) : 
+                
         For Training : Open the below mentioned Jupyter Notebook and execute all the cells
         
-        1) PrioritizedExpReplaay_DoubleDeepQ-Net_Navigation_Solution.ipynb 
+        PrioritizedExpReplaay_DoubleDeepQ-Net_Navigation_Solution.ipynb 
        
         Neural Net Model Architecture file Used : DDQN_NN_Model.py
         The Unity Agent file used : PriorityExpReplay_DoubleDeepQN_Agent.py
