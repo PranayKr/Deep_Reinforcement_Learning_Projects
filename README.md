@@ -112,7 +112,7 @@ The environment is considered as solved when the agent gets an average score of 
   2) Please change the name of the (*.pth) file where the model weights are getting saved during training to
      avoid overwriting of already existing pre-trained model weights existing currently with the same filename
        
-  1) Vanilla Deep Q-net algorithm Training / Testing Details (Files Used) : 
+  a) Vanilla Deep Q-net algorithm Training / Testing Details (Files Used) : 
                 
         For Training : Open either of the below mentioned Jupyter Notebook and execute all the cells
         
@@ -130,7 +130,7 @@ The environment is considered as solved when the agent gets an average score of 
                                             2)DQN_Checkpoint_2.pth
                                             3)DQN_Checkpoint_3.pth
         
-  2) Double Deep Q-net algorithm Training / Testing Details (Files Used) : 
+  b) Double Deep Q-net algorithm Training / Testing Details (Files Used) : 
                 
         For Training : Open either of the below mentioned Jupyter Notebook and execute all the cells
         
@@ -151,7 +151,7 @@ The environment is considered as solved when the agent gets an average score of 
                                             3)DoubleDQN_Checkpoint_2.pth
                                             
                                             
-  3) Double Deep Q-net with Priority Experience Replay algorithm Training / Testing Details (Files Used) : 
+  c) Double Deep Q-net with Priority Experience Replay algorithm Training / Testing Details (Files Used) : 
                 
         For Training : Open the below mentioned Jupyter Notebook and execute all the cells
         
@@ -165,12 +165,3 @@ The environment is considered as solved when the agent gets an average score of 
                       
         Pretrained Model Weights provided : PriorityExpDoubleDQN_Checkpoint_1.pth
                                             
-                     
-        
-        
-          
-     
-     
-     
-  
-  
