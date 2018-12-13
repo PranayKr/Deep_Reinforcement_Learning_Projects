@@ -70,5 +70,9 @@
     is constructed for approximating the optimal policy which takes in all the states in state space as input(number of input neurons       being equal to number of states) and returns the probability of each action being selected in action space (number of output neurons     being equal to number of actions in action space) The agent uses this policy to interact with the environment by passing only the       most recent state as input to the neural-net model.Then the agent samples from the action probabilities to output an action in           response.The algorithm needs to optimize the network weights ao that the optimal action is most likely to be selected for each 
     iteraion during training, This logic helps the agent with its goal to maximize expected return.
     
+    NOTE : The above mentioned process explains the way to appoximate a Stochastic Policy using Neural-Net by sampling of action
+           probabilities. Policy-Based Methods can be used to approximate a Deterministic Policy as well by selecting only the
+           Greedy Action for the latest input state fed to the model during forward pass for each iteration during training
+    
 
 # Description of the Learning Algorithm used  
