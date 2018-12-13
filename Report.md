@@ -75,6 +75,7 @@
            Greedy Action for the latest input state fed to the model during forward pass for each iteration during training
  
  i) Policy-Based Methods (for Continuous Action Spaces) :
+ 
     Policy-Based Methoda are better than the Value-Based Methods owing to the following factors:
     a) Policy-Based Methods are simpler than Value-Based Methods because they do away with the intermediate step of estimating
        the optimal action-value function and directly estimate the optimal policy.
