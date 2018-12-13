@@ -96,7 +96,10 @@ The current implementation has been done only for the Single-Agent Reacher Envir
          
 
       c) (For AWS) If the agent is to be trained on AWS (and a virtual screen is not enabled), then please use this link 
-         (https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) for Single-Agent Reacher                Environment or this link(https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) for Multi-Agent            (20 Agents) Reacher Environment to obtain the "headless" version of the environment. Watching the agent during training is not          possible without enabling a virtual screen.
+         (https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) for Single-Agent 
+         Reacher Environment or this link(https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) 
+         for Multi-Agent(20 Agents) Reacher Environment to obtain the "headless" version of the environment. Watching the agent
+         during training is not possible without enabling a virtual screen.
          (To watch the agent,follow the instructions to enable a virtual screen 
          (https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)
          and then download the environment for the Linux operating  system above.)         
