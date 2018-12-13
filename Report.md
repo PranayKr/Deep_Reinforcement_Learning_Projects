@@ -65,6 +65,7 @@
     the basis of Deep Q-Learning algorithm. 
     
  h) Policy-Based Methods (for Discrete Action Spaces) :
+    
     Unlike in the case of Value-Based Methods the optimal policy can be found out directly from interaction with the environment without
     the need of first finding out an estimate of optimal action-value function by using Policy-Based Methods. For this a neural network
     is constructed for approximating the optimal policy which takes in all the states in state space as input(number of input neurons       being equal to number of states) and returns the probability of each action being selected in action space (number of output neurons     being equal to number of actions in action space) The agent uses this policy to interact with the environment by passing only the       most recent state as input to the neural-net model.Then the agent samples from the action probabilities to output an action in           response.The algorithm needs to optimize the network weights ao that the optimal action is most likely to be selected for each 
