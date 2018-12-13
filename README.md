@@ -112,6 +112,12 @@ The current implementation has been done only for the Single-Agent Reacher Envir
   4) Next place the folder containing the downloaded unity environment file for Windows (64-bit) OS inside the python/ folder of 
      the Deep-RL cloned repository folder.
   5) Open Anaconda prompt shell window and navigate inside the python/ folder in the Deep-RL cloned repository folder.
+  6) Run the command "jupyter notebook" from the Anaconda prompt shell window to open the jupyter notebook web-app tool
+     in the browser from where any of the provided training and testing source codes present in notebooks(.ipynb files)
+     can be executed.
+  7) The source code present in the provided training and testing notebooks(.ipynb files) can also be collated in 
+     respective new python files(.py files) and then executed directly from the Anaconda prompt shell window using 
+     the command "python <filename.py>"
      
   NOTE:
   1) All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab.
