@@ -115,8 +115,8 @@ The current implementation has been done only for the Single-Agent Reacher Envir
   6) Run the command "jupyter notebook" from the Anaconda prompt shell window to open the jupyter notebook web-app tool
      in the browser from where any of the provided training and testing source codes present in notebooks(.ipynb files)
      can be opened.
-  7) Before running/executing code in a notebook, change the kernel(IPython Kernel created for drlnd environment) to match the
-     drlnd environment by using the drop-down Kernel menu.   
+  7) Before running/executing code in a notebook, change the kernel (IPython Kernel created for drlnd environment) to match
+     the drlnd environment by using the drop-down Kernel menu.  
   8) The source code present in the provided training and testing notebooks(.ipynb files) can also be collated in 
      respective new python files(.py files) and then executed directly from the Anaconda prompt shell window using 
      the command "python <filename.py>"
