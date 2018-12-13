@@ -61,8 +61,8 @@
     
  g) Value-Based Methods :
     Value-Based Methods such as Q-Learning and Deep Q-Learning aim at learning optimal policy from interaction with the environment
-    by trying to find an estimate of the optimal action-value function . While Q-Learning is implemented for environments having small       state spaces by representing optimal action-value function in the form of Q-table with one row for each state and one column for         each action which is used to build the optimal policy one state at a time by pulling action with maximum value from the row             corresponding to each state;it is impossible to maintain a Q-Table for environments with huge state spaces in which case the optimal
-    action value function is represented using a non-linear function approximator such as a neural network model which forms the basis       of Deep Q-Learning algorithm. 
+    by trying to find an estimate of the optimal action-value function . While Q-Learning is implemented for environments having small       state spaces by representing optimal action-value function in the form of Q-table with one row for each state and one column for         each action which is used to build the optimal policy one state at a time by pulling action with maximum value from the row             corresponding to each state ; it is impossible to maintain a Q-Table for environments with huge state spaces in which case the           optimal action value function is represented using a non-linear function approximator such as a neural network model which forms
+    the basis of Deep Q-Learning algorithm. 
     
  h) Policy-Based Methods :
     Unlike in the case of Value-Based Methods the optimal policy can be found out directly from interaction with the environment without
