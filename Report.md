@@ -58,6 +58,17 @@
     derived from Q by estimating the Q-values for each action give the current state and applying an
     epsilon-greedy policy. Deep Q-learning simply means using multilayer feedforward neural networks or even
     Convolutional Neural Networks (CNNs) to handle raw pixel input
-
+    
+ g) Value-Based Methods :
+    Value-Based Methods such as Q-Learning and Deep Q-Learning aim at learning optimal policy from interaction with the environment
+    by trying to find an estimate of the optimal action-value function . While Q-Learning is implemented for environments having small       state spaces by representing optimal action-value function in the form of Q-table with one row for each state and one column for         each action which is used to build the optimal policy one state at a time by pulling action with maximum value from the row             corresponding to each state;it is impossible to maintain a Q-Table for environments with huge state spaces in which case the optimal
+    action value function is represented using a non-linear function approximator such as a neural network model which forms the basis       of Deep Q-Learning algorithm. 
+    
+ h) Policy-Based Methods :
+    Unlike in the case of Value-Based Methods the optimal policy can be found out directly from interaction with the environment without
+    the need of first finding out an estimate of optimal action-value function by using Policy-Based Methods. For this a neural network
+    is constructed for approximating the optimal policy which takes in all the states in state space as input(number of input neurons       being equal to number of states) and returns the probability of each action being selected in action space (number of output neurons     being equal to number of actions in action space) The agent uses this policy to interact with the environment by passing only the       most recent state as input to the neural-net model.Then the agent samples from the action probabilities to output an action in           response.The algorithm needs to optimize the network weights ao that the optimal action is most likely to be selected for each 
+    iteraion during training, This logic helps the agent with its goal to maximize expected return.
+    
 
 # Description of the Learning Algorithm used  
