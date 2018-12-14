@@ -87,5 +87,19 @@
        Action Space the Value-Based Methods need to find the global maximum of a non-trivial continuous action function which 
        turns out to be an Optimization Problem in itself.
     
-    
+ j) Policy-Gradient Methods :
+    Policy-Gradient Methods are a subclass of Policy-Based Methods which estimate the weights of an optimal policy by first
+    estimating the gradient of the Expected Return (cumulative reward) over all trajectories as a function of network weights
+    of a Neural-Net Model representing policy PI to be optimized using Stochastic Gradient Ascent by looking at each
+    state-action pair in a Trajectory separately and by taking into account the magnitude of cumulative reward i.e. expected
+    return for that Trajectory. Either network weights are updated to increase the probability of selecting an action for a
+    particular state in case of receiving a positive reward or the network weights are updated to decrease the probability of
+    selecting an action for a partcular state in case of receiving a negative reward by calculating the gradient i.e. derivative
+    of the log of probability of selecting an action given a state using the Policy PI with weights Theta and multiplying it with
+    the reward (expected return) received over all state-action pairs present in a trajectory summed up over all the sampled set 
+    of trajectories.The weights Theta of the policy are now updated with the gradient estimate calculated over several iterations
+    with the final goal of converging to the weights of an optimal policy.
+ 
+ 
+ 
 # Description of the Learning Algorithm used  
