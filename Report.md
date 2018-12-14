@@ -111,4 +111,24 @@
     Critic Neural-Net then is used to calculate the Advantage Function (sum of reward for current state and difference of discounted
     TD-Estimate of next state and TD-Estimate of current state) which is then used as a baseline to train the Actor Neural-net. 
  
-# Description of the Learning Algorithm used  
+# Description of the Learning Algorithm used
+
+Deep Deterministic Policy Gradient (DDPG) Algorithm :
+DDPG Algorithm can be best described as Deep-Q Network Method for continuous action spaces instead of being called an actual
+Actor-Critic Method. The Critic Neural-Net Model in DDPG Algorithm is used to approximate the maximiser over the Q-Values of
+the next state and not as a learned baseline to reduce variance of the Actor Neural-Net Model. A Deep Q-Network Method cannot
+be used for continuous action spaces. In DDPG Method 2 neural networks are used for actor and critic similar to a basic
+Actor-Critic Method. The Actor Neural-Net is used to approximate the optimal policy deterministically by outputting only the
+best action for a given state rather than probability distribution for each action. THe Critic Neural-Net estimates the optimal
+action-value function for a given state using the best-believed action outputted by the Actor Neural-Net. Hence here Actor is 
+being used as an approximate maximiser to calculate a new target value for training the Critic to estimate action-value function
+for that state. DDPG algorithm uses Replay Buffer to store and get smapled set of experience tuples and uses the concept of
+soft-update to update the target networks of actor and critic as explained below.
+
+Soft-Update of Actor and Critic Network Weights :
+In DDPG Algorithm regular and target network weights are there for both actor and critic networks. Target Network Weights are 
+updated every time-step by adding a minor percentage of regular network weights to current target network weights keeping the
+major part of current target network weights. Using this soft-update strategy for updating target netwrok weights helps a lot
+in accelearting learning.
+
+
