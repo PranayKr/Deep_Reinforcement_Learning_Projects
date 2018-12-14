@@ -131,4 +131,12 @@ updated every time-step by adding a minor percentage of regular network weights 
 major part of current target network weights. Using this soft-update strategy for updating target network weights helps a lot
 in accelerating learning.
 
+# Neural Net Architecture Used:
 
+# HyperParameters Used:
+
+# Plot of Rewards per Episode 
+
+# CONCLUSION 
+
+# Ideas for Future Works (Scope for further improvements)
