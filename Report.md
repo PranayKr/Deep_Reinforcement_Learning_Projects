@@ -101,7 +101,7 @@
     with the final goal of converging to the weights of an optimal policy.
  
  h) Actor-Critic Methods :
-    Actor-Critic Methods are at an intersection of Value-Based Methods such as Deep-Q Network and Policy-Based Methods such as 
+    Actor-Critic Methods are at the intersection of Value-Based Methods such as Deep-Q Network and Policy-Based Methods such as 
     Reinforce. They use Value-Based Methods to estimate optimal action-value function which is then used as a baseline to reduce
     the variance of Policy-Based Methods. Actor-Critic Agents are more stable than Value-Based Agents and need fewer samples/data
     to learn than Policy-Based Agents. Two Neural Networks are used here one for the Actor and one for the Critic. The Critic 
