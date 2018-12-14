@@ -100,6 +100,15 @@
     of trajectories.The weights Theta of the policy are now updated with the gradient estimate calculated over several iterations
     with the final goal of converging to the weights of an optimal policy.
  
- 
+ h) Actor-Critic Methods :
+    Actor-Critic Methods are at an intersection of Value-Based Methods such as Deep-Q Network and Policy-Based Methods such as 
+    Reinforce. They use Value-Based Methods to estimate optimal action-value function which is then used as a baseline to reduce
+    the variance of Policy-Based Methods. Actor-Critic Agents are more stable than Value-Based Agents and need fewer samples/data
+    to learn than Policy-Based Agents. Two Neural Networks are used here one for the Actor and one for the Critic. The Critic 
+    Neural-Net takes in a state to output State-Value function of Policy PI. The Actor Neural Net takes in a state and outputs
+    action with highest probability to be taken for that state which is used then to calculate TD-Estimate for current state by
+    using the reward for current state and the next state. The Critic Neural-Net gets trained using this TD-Estimate value. The
+    Critic Neural-Net then is used to calculate the Advantage Function (sum of reward for current state and difference of discounted
+    TD-Estimate of next state and TD-Estimate of current state) which is then used as a baseline to train the Actor Neural-net. 
  
 # Description of the Learning Algorithm used  
