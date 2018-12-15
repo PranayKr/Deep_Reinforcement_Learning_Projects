@@ -195,7 +195,9 @@ in accelerating learning.
   was introduction of noise decay parameter during training to prefer exploration over exploitation during initial stages of training 
   and then prefer eploitation over exploration during later stages because by then the agent has beed made to learn and train enough
   and it should then be given a chance to implemeent its learning to select actions for achieving the desired goal besides exploring
-  the environment still but at a relatively lesser proportion than during the initial stages of training.
+  the environment still but at a relatively lesser proportion than during the initial stages of training. This approach helped in 
+  accelerating the training process manifold and way quicker convergence to estimation of network weights of the optimal policy as the 
+  agent hence achieved the target goal score just within 300 episodes compared to more than 2000 episodes in previous attempts.
 
 # Ideas for Future Works (Scope for further improvements)
   
