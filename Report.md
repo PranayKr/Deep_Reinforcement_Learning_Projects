@@ -225,3 +225,15 @@ in accelerating learning.
         
 
 # REFERENCES :
+  
+  1) CONTINUOUS CONTROL WITH DEEP REINFORCEMENT LEARNING (https://arxiv.org/pdf/1509.02971.pdf)
+  
+  2) Benchmarking Deep Reinforcement Learning for Continuous Control (https://arxiv.org/pdf/1604.06778.pdf)
+  
+  3) An implementation of DDPG with OpenAI Gym's Pendulum environment 
+     (https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum)
+     
+  4) An implementation of DDPG with OpenAI Gym's BipedalWalker environment
+     (https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-bipedal)
+  
+
