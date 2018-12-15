@@ -151,6 +151,6 @@
      
      f) Noisy Deep Q-network
      
-  3) Using Convolutio0nal Neural Network (CNN) architecture instead of Multilayer Feedforward Neural Network model
+  3) Using Convolutional Neural Network (CNN) architecture instead of Multilayer Feedforward Neural Network model
      to train the agent directly from Pixels (Input Images of the environment)
      
