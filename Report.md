@@ -75,7 +75,12 @@
            Greedy Action for the latest input state fed to the model during forward pass for each iteration during training
  
  i) Policy-Based Methods (for Continuous Action Spaces) :
- 
+    Policy-Based Methods can be used for environments having continuous action space by using a neural network used for
+    estimating the optimal policy having an output layer which parametrizes a continuous probability distribution by 
+    outputting the mean and variance of a normal distribution. Then in order to select an action , the agent needs to 
+    pass only the most recent state as input to the network and then use the output mean and variance to sample from the 
+    distribution.
+     
     Policy-Based Methoda are better than the Value-Based Methods owing to the following factors:
     a) Policy-Based Methods are simpler than Value-Based Methods because they do away with the intermediate step of estimating
        the optimal action-value function and directly estimate the optimal policy.
