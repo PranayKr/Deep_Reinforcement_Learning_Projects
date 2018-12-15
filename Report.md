@@ -183,6 +183,8 @@ in accelerating learning.
 # Plot of Rewards per Episode
   Deep Deterministic Policy Gradient (DDPG) Algorithm Results :
   
+  ![ddpg_results_graph](https://user-images.githubusercontent.com/25223180/50041189-dae39680-0076-11e9-8d17-c57ab3b7fee4.PNG)
+  
   A score of +30 achieved in 280 episodes
   
 
