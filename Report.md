@@ -165,6 +165,20 @@ in accelerating learning.
        reciprocol of square root of total number of current episodes gradually decreases as training proceeds.
    
 # HyperParameters Used:
+  1) Number of Episodes : 5000
+  2) Max_Timesteps : 1000
+  3) LR_ACTOR = 1e-4 (learning rate of the Actor Neural-Net Model) 
+  4) LR_CRITIC = 3e-4 (learning rate of the Critic Neural-Net Model)
+  5) WEIGHT_DECAY = 0.0001  (L2 weight decay used by the Critic Neural-Net Model)
+  6) BUFFER_SIZE = int(1e6) (replay buffer size) 
+  7) BATCH_SIZE = 64 (minibatch size)
+  8) GAMMA= 0.99 (discount factor)
+  9) TAU = 1e-3 (for soft update of target parameters)
+  10) Target Goal Score : greater than or equal to 30
+  
+  NOTE(Extra Hyperparameter):
+  EXPLORATION_NOISE_DECAY = 1/SQUARE-ROOT(Current Episode) (Not declared as a variable but value used during training)
+  
 
 # Plot of Rewards per Episode 
 
