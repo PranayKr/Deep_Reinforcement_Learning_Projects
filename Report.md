@@ -194,7 +194,8 @@ in accelerating learning.
   architecture with maximum of 2-3 hidden layers for both Actor and Critic works best for this implementation and the key game-changer 
   was introduction of noise decay parameter during training to prefer exploration over exploitation during initial stages of training 
   and then prefer eploitation over exploration during later stages because by then the agent has beed made to learn and train enough
-  and it should then be given a chance to implemeent its learning to select actions for achieving the desired goal.
+  and it should then be given a chance to implemeent its learning to select actions for achieving the desired goal besides exploring
+  the environment still but at a relatively lesser proportion than during the initial stages of training.
 
 # Ideas for Future Works (Scope for further improvements)
   
