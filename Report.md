@@ -203,7 +203,7 @@ in accelerating learning.
 
 # Ideas for Future Works (Scope for further improvements)
 
-  Better Results can be achived by using the below mentioned approaches
+  Better Results can be achieved by using the below mentioned approaches
   
   1) Using Proximal Policy Optimization (PPO) Algorithm for training muliplle Agents (20 Robotic Arms) in Multi-Agent version of 
      Reacher Unity ML-Agent Environment (Ref: Proximal Policy Optimization Algorithms (https://arxiv.org/pdf/1707.06347.pdf))
