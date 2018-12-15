@@ -139,11 +139,16 @@
   
   2) Implementation of Rainbow Algorithm encompassing the feautures and logic of all the below mentioned approaches :
      
-     a) Double Deep Q-Network 
-     b) Prioritized Experience Replay 
-     c) Duelling Deep Q-Network 
+     a) Double Deep Q-Network
+     
+     b) Prioritized Experience Replay
+     
+     c) Duelling Deep Q-Network
+     
      d) Mulit-step Bootstrap Tragets
+     
      e) Distributional Deep Q-network
+     
      f) Noisy Deep Q-network
      
   3) Using Convolutio0nal Neural Network (CNN) architecture instead of Multilayer Feedforward Neural Network model
