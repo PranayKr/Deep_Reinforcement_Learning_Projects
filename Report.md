@@ -188,8 +188,15 @@ in accelerating learning.
   A score of +30 achieved in 280 episodes
   
 
-# CONCLUSION 
+# CONCLUSION
+  The results achieved as showcased above during training were achieved after a number of unsuccessful starts with a different set 
+  of hyperparameters and neural-net architectures than the ones finally used. To summarize from the experience a simple neural-net
+  architecture with maximum of 2-3 hidden layers for both Actor and Critic works best for this implementation and the key game-changer 
+  was introduction of noise decay parameter during training to prefer exploration over exploitation during initial stages of training 
+  and then prefer eploitation over exploration during later stages because by then the agent has beed made to learn and train enough
+  and it should then be given a chance to implemeent its learning to select actions for achieving the desired goal.
 
 # Ideas for Future Works (Scope for further improvements)
+  
 
 # REFERENCES :
