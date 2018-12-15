@@ -138,6 +138,7 @@
   1) Implementation of Duelling Deep Q-Network with Prioritized Experience Replay
   
   2) Implementation of Rainbow Algorithm encompassing the feautures and logic of all the below mentioned approaches :
+     
      a) Double Deep Q-Network 
      b) Prioritized Experience Replay 
      c) Duelling Deep Q-Network 
