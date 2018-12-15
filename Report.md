@@ -148,7 +148,9 @@ in accelerating learning.
 # b) Architecture of Critic Neural-Network Model:
     A multilayer feed-forward Neural Net Architecture was used with 2 Hidden layers. The input layer has number of input neurons equal
     to the state size and the the output layer has number of output neurons equal to 1.The first hidden layer has hidden neurons equal
-    to sum of 128 and action size while the second hidden layer has 128 hidden neurons. A Leaky ReLU (Rectified Linear Unit) Activation     Function was used over the inputs of the 2 hidden layers.Weight initialization was done for the first 2  layers  from uniform           distribution in the negative to positive range of reciprocol of the square root of number of weights for each layer. Weight             initialization for the final layer was done from uniform distribution in the range of (-3e-3, 3e-3).
+    to sum of 128 and action size while the second hidden layer has 128 hidden neurons. A Leaky ReLU (Rectified Linear Unit)
+    Activation Function was used over the inputs of the 2 hidden layers.Weight initialization was done for the first 2 layers from           uniform distribution in the negative to positive range of reciprocol of the square root of number of weights for each layer.
+    Weight initialization for the final layer was done from uniform distribution in the range of (-3e-3, 3e-3).
    
 # c) Other Details of Implementation :
     1) Adam Optimizer was used for learning the neural network parameters with a learning rate of 1e-4 for Actor Neural-Net and a
