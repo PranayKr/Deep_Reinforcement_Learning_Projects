@@ -229,6 +229,10 @@ in accelerating learning.
   6) Using A3C Algorithm for solving Continuous Control Problem Statements such as the Reacher Environment especially for training 
      muliplle Agents (20 Robotic Arms) in Multi-Agent version of Reacher Unity ML-Agent Environment.
      (Ref: Asynchronous Methods for Deep Reinforcement Learning (https://arxiv.org/pdf/1602.01783.pdf)) 
+     
+  7) Solving a more difficult Continuous Control Environment (Unity ML-Agents Crawler Environment) where the goal is to teach a 
+     creature with 4 legs to walk forward without falling using DDPG algorithm / PPO Algorithm / TRPO Algorithm / TNPG Algorithm
+     or any of the other algorithms mentioned above. 
         
 
 # REFERENCES :
