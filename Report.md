@@ -211,9 +211,9 @@ in accelerating learning.
   2) Using Convolutio0nal Neural Network (CNN) architecture instead of Multilayer Feedforward Neural Network model to train the agent 
      directly from Pixels (Input Images of the environment) with Proximal Policy Optimization (PPO) Algorithm for training muliplle 
      Agents (20 Robotic Arms) in Multi-Agent version of Reacher Unity ML-Agent Environment
-     (Ref: Using PPO Algorithm to train an Agent to play Atari Pong Game with OpenAI Gym's PongDeterministic-v4 / vanilla Pong-v4 
+     (Ref1: Using PPO Algorithm to train an Agent to play Atari Pong Game with OpenAI Gym's PongDeterministic-v4 / vanilla Pong-v4 
       environments)
-     (Ref: Proximal Policy Optimization Algorithms (https://arxiv.org/pdf/1707.06347.pdf))
+     (Ref2: Proximal Policy Optimization Algorithms (https://arxiv.org/pdf/1707.06347.pdf))
      
   3) Using Distributed Distributional Deep Deterministic Policy Gradient (D4PG) Algorithm for Continuous Control Problem Statements
      such as the Reacher Environment (Ref: DISTRIBUTED DISTRIBUTIONAL DETERMINISTIC POLICY GRADIENTS 
