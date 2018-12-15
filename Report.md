@@ -198,8 +198,24 @@ in accelerating learning.
   the environment still but at a relatively lesser proportion than during the initial stages of training. This approach helped in 
   accelerating the training process manifold and way quicker convergence to estimation of network weights of the optimal policy as the 
   agent hence achieved the target goal score just within 300 episodes compared to more than 2000 episodes in previous attempts.
+  Also I used gradient clipping when training the critic network to stablize the training process of the agent which seemd to have
+  helped in achieving the desired result.
 
 # Ideas for Future Works (Scope for further improvements)
-  
+  Better Results can be achived by using the below mentioned approaches  
+     1) Using Proximal Policy Optimization (PPO) Algorithm for training muliplle Agents (20 Robotic Arms) in Multi-Agent version of 
+        Reacher Unity ML-Agent Environment (Ref: Proximal Policy Optimization Algorithms (https://arxiv.org/pdf/1707.06347.pdf))
+     2) Using Distributed Distributional Deep Deterministic Policy Gradient (D4PG) Algorithm for Continuous Control Problem Statements
+        such as the Reacher Environment (Ref: DISTRIBUTED DISTRIBUTIONAL DETERMINISTIC POLICY GRADIENTS 
+        (https://openreview.net/pdf?id=SyZipzbCb)) especially for training muliplle Agents (20 Robotic Arms) in Multi-Agent version of 
+        Reacher Unity ML-Agent Environment 
+     3) Using Trust Region Policy Optimization (TRPO) Algorithm as discussed in the research paper
+        (Benchmarking Deep Reinforcement Learning for Continuous Control (https://arxiv.org/pdf/1604.06778.pdf))
+     4) Using Truncated Natural Policy Gradient (TNPG) Algorithm as discussed in the research paper
+        (Benchmarking Deep Reinforcement Learning for Continuous Control (https://arxiv.org/pdf/1604.06778.pdf))
+     5) Using A3C Algorithm for solving Continuous Control Problem Statements such as the Reacher Environment especially for training 
+        muliplle Agents (20 Robotic Arms) in Multi-Agent version of Reacher Unity ML-Agent Environment.
+        (Ref: Asynchronous Methods for Deep Reinforcement Learning (https://arxiv.org/pdf/1602.01783.pdf)) 
+        
 
 # REFERENCES :
