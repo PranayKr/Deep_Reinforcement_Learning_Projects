@@ -176,8 +176,8 @@ in accelerating learning.
   9) TAU = 1e-3 (for soft update of target parameters)
   10) Target Goal Score : greater than or equal to 30
   
-  NOTE(Extra Hyperparameter):
-  EXPLORATION_NOISE_DECAY = 1/SQUARE-ROOT(Current Episode) (Not declared as a variable but value used during training)
+    NOTE (Extra Hyperparameter) :
+    EXPLORATION_NOISE_DECAY = 1/SQUARE-ROOT(Current Episode) (Not declared as a variable but value used during training)
   
 
 # Plot of Rewards per Episode 
