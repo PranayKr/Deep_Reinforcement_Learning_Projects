@@ -180,7 +180,11 @@ in accelerating learning.
     EXPLORATION_NOISE_DECAY = 1/SQUARE-ROOT(Current Episode) (Not declared as a variable but value used during training)
   
 
-# Plot of Rewards per Episode 
+# Plot of Rewards per Episode
+  Deep Deterministic Policy Gradient (DDPG) Algorithm Results :
+  
+  A score of +30 achieved in 280 episodes
+  
 
 # CONCLUSION 
 
