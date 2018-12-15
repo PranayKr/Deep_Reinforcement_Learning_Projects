@@ -154,8 +154,8 @@ in accelerating learning.
     initialization for the final layer was done from uniform distribution in the range of (-3e-3, 3e-3).
     
 # c) Other Details of Implementation :
-    1) Adam Optimizer was used for learning the neural network parameters with a learning rate of 1e-4 for Actor Neural-Net and a
-       learning rate of 3e-4 and L2 weight decay of 0.0001 for Critic Neural-Net.
+    1) Adam Optimizer was used for learning the neural network parameters with a learning rate of 1e-4 for Actor Neural-Net Model and
+       a learning rate of 3e-4 and L2 weight decay of 0.0001 for Critic Neural-Net Model.
    
     2) For the exploration noice process an Ornstein-Ulhenbeck Process was used with mu=0.(mean), theta=0.15 and sigma=0.1(variance)
        to enable exploration of the physical environment in the simulation by the Robotic Arm Agent. But before adding noise to the 
