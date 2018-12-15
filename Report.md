@@ -136,7 +136,31 @@ updated every time-step by adding a minor percentage of regular network weights 
 major part of current target network weights. Using this soft-update strategy for updating target network weights helps a lot
 in accelerating learning.
 
-# Neural Net Architecture Used:
+# Neural Net Architecture Used:  
+a) Architecture of Actor Neural-Network Model:   
+   A multilayer feed-forward Neural Net Architecture was used with 2 Hidden layers each having 128 hidden neurons.The input layer
+   has number of input neurons equal to the state size and the the output layer has number of output neurons equal to action size. A
+   ReLU (Rectified Linear Unit) Activation Function was used over the inputs of the 2 hidden layers while a tanh activation function
+   was used over the input of the output layer.Weight initialization was done for the first 2  layers  from uniform distribution
+   in the negative to positive range of reciprocol of the square root of number of weights for each layer. Weight initialization
+   for the final layer was done from uniform distribution in the range of (-3e-3, 3e-3).
+
+b) Architecture of Critic Neural-Network Model:
+   A multilayer feed-forward Neural Net Architecture was used with 2 Hidden layers. The input layer has number of input neurons equal
+   to the state size and the the output layer has number of output neurons equal to 1.The first hidden layer has hidden neurons equal
+   to sum of 128 and action size while the second hidden layer has 128 hidden neurons. A Leaky ReLU (Rectified Linear Unit) Activation      Function was used over the inputs of the 2 hidden layers.Weight initialization was done for the first 2  layers  from uniform            distribution in the negative to positive range of reciprocol of the square root of number of weights for each layer. Weight              initialization for the final layer was done from uniform distribution in the range of (-3e-3, 3e-3).
+   
+   
+   Adam Optimizer was used for learning the neural network parameters with a learning rate of 1e-4 for Actor Neural-Net and a
+   learning rate of 3e-4 and L2 weight decay of 0.0001 for Critic Neural-Net.
+   
+   For the exploration noice process an Ornstein-Ulhenbeck Process was used with mu=0.(mean), theta=0.15 and sigma=0.1(variance)
+   to enable exploration of the physical environment in the simulation by the Robotic Arm Agent. But before adding noise to the 
+   action returned for the current state using the current policy the noise quantity was multiplied by a value equivalent to the
+   reciprocol of square root of total number of current episodes to prefer exploration over exploitation only during the initial
+   stages of training and gradually prefer exploitation over exploration during later stages of training as the value of the
+   reciprocol of square root of total number of current episodes gradually decreases as training proceeds.
+   
 
 # HyperParameters Used:
 
