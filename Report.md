@@ -207,19 +207,26 @@ in accelerating learning.
   
   1) Using Proximal Policy Optimization (PPO) Algorithm for training muliplle Agents (20 Robotic Arms) in Multi-Agent version of 
      Reacher Unity ML-Agent Environment (Ref: Proximal Policy Optimization Algorithms (https://arxiv.org/pdf/1707.06347.pdf))
-        
-  2) Using Distributed Distributional Deep Deterministic Policy Gradient (D4PG) Algorithm for Continuous Control Problem Statements
+     
+  2) Using Convolutio0nal Neural Network (CNN) architecture instead of Multilayer Feedforward Neural Network model to train the agent  
+     directly from Pixels (Input Images of the environment) with Proximal Policy Optimization (PPO) Algorithm for training muliplle 
+     Agents (20 Robotic Arms) in Multi-Agent version of Reacher Unity ML-Agent Environment
+     (Ref: Using PPO Algorithm to train an Agent to play Atari Pong Game with OpenAI Gym's PongDeterministic-v4 / vanilla Pong-v4 
+      environments)
+     (Ref: Proximal Policy Optimization Algorithms (https://arxiv.org/pdf/1707.06347.pdf))
+     
+  3) Using Distributed Distributional Deep Deterministic Policy Gradient (D4PG) Algorithm for Continuous Control Problem Statements
      such as the Reacher Environment (Ref: DISTRIBUTED DISTRIBUTIONAL DETERMINISTIC POLICY GRADIENTS 
      (https://openreview.net/pdf?id=SyZipzbCb)) especially for training muliplle Agents (20 Robotic Arms) in Multi-Agent version of 
       Reacher Unity ML-Agent Environment 
       
-  3) Using Trust Region Policy Optimization (TRPO) Algorithm as discussed in the research paper
+  4) Using Trust Region Policy Optimization (TRPO) Algorithm as discussed in the research paper
      (Benchmarking Deep Reinforcement Learning for Continuous Control (https://arxiv.org/pdf/1604.06778.pdf))
      
-  4) Using Truncated Natural Policy Gradient (TNPG) Algorithm as discussed in the research paper
+  5) Using Truncated Natural Policy Gradient (TNPG) Algorithm as discussed in the research paper
      (Benchmarking Deep Reinforcement Learning for Continuous Control (https://arxiv.org/pdf/1604.06778.pdf))
      
-  5) Using A3C Algorithm for solving Continuous Control Problem Statements such as the Reacher Environment especially for training 
+  6) Using A3C Algorithm for solving Continuous Control Problem Statements such as the Reacher Environment especially for training 
      muliplle Agents (20 Robotic Arms) in Multi-Agent version of Reacher Unity ML-Agent Environment.
      (Ref: Asynchronous Methods for Deep Reinforcement Learning (https://arxiv.org/pdf/1602.01783.pdf)) 
         
