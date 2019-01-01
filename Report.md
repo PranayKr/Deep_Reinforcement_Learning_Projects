@@ -162,7 +162,7 @@ weights of local networks for both actor and critic. While implementing MADDPG, 
 
 # Neural Net Architecture Used:
   Both the Agents used separate Neural Net Models for both Actor and Critic but the architectures of the Actor Models and Critic Models 
-  for both the Agents were same. 
+  for both the Agents were same. For each Agent 2 Actor models and 2 Critic models were created for the local network and the target       network. 
 # a) Architecture of Actor Neural-Network Model (for each Agent) :
     A multilayer feed-forward Neural Net Architecture was used with 2 Hidden layers each having 256 hidden neurons.The input layer
     has number of input neurons equal to the state size and the the output layer has number of output neurons equal to action size. A
@@ -193,6 +193,29 @@ weights of local networks for both actor and critic. While implementing MADDPG, 
         exploration during later stages of training as the value of the noise weight gradually decreases as training proceeds.
       
 # HyperParameters Used:
+  1) Number of Episodes : 5000
+  2) Max_Timesteps : 1000
+  3) N_AGENTS = 2 (number of distinct agents)
+  4) STATE_SIZE = 24 (number of state dimensions for a single agent)
+  5) ACTION_SIZE = 2 (number of action dimensions for a single agent)
+  6) CRITIC_INPUT_SIZE = (STATE_SIZE + ACTION_SIZE)*N_AGENTS       
+     (Critic local and target networks for each agent receive information about observation states and actions taken by all the agents)
+  7) HIDDEN NEURONS = 256 
+     (number of hidden neurons for both the hidden layers of Actor and Critic local and target Neural Nets for each agent)
+  8) LR_ACTOR = 1e-4 (learning rate of the Actor Neural-Net Model)
+  9) LR_CRITIC = 1e-3 (learning rate of the Critic Neural-Net Model)
+  10) WEIGHT_DECAY = 0.0 (L2 weight decay used by the Critic Neural-Net Model)
+  11) BUFFER_SIZE = 10000 (replay buffer size)
+  12) BATCH_SIZE = 256 (minibatch size)
+  13) GAMMA= 0.99 (discount factor)
+  14) TAU = 1e-3 (for soft update of target parameters)
+  15) UPDATE_EVERY = 2 (how often to update the network)
+  16) NOISE_START = 0.5 (initial exploration noise weighting factor)
+  17) NOISE_DECAY = 1.0 (exploration noise decay rate)
+  18) T_STOP_NOISE = 30000 (maximum number of timesteps with exploration noise applied in training)
+  19) NOISE_ON = True (a boolean flag to stop adding exploration noise if number of time steps exceed T_STOP_NOISE value)
+  20) Target Goal Score : Average Score greater than or equal to +0.5 
+                          (over 100 consecutive episodes, after taking the maximum score over the scores of both agents per episode)
 
 # Plot of Rewards per Episode
 
