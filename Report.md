@@ -161,6 +161,8 @@ DDPG Algorithm is an off-policy actor-critic algorithm that uses the concept of 
 weights of local networks for both actor and critic. While implementing MADDPG, actor model of each Agent receive as input the individual state (observations) of the agent and output a (two-dimensional) action vector. The critic model of each agent however, receives the states and actions of all actors of all the agents. This approach leads to information sharing between the agents. During training the Critic of each Agent receives extra information such as states observed and actions taken by all other Agents present whereas the Actor of each Agent has information regarding only that pertcular Agent's observed states and actions taken. MADDPG Algorithm can be used to train multiple Agents in cooperative , competitive or mixed cooperative competitive environments. To summarize it can be said that MADDPG Algorithm is a centralized training and decentralized execution algorithm.
 
 # Neural Net Architecture Used:
+  Both the Agents used separate Neural Net Models for both Actor and Critic but the architectures of the Actor Models and Critic Models 
+  for both the Agents were same. 
 # a) Architecture of Actor Neural-Network Model (for each Agent) :
     A multilayer feed-forward Neural Net Architecture was used with 2 Hidden layers each having 256 hidden neurons.The input layer
     has number of input neurons equal to the state size and the the output layer has number of output neurons equal to action size. A
@@ -180,7 +182,16 @@ weights of local networks for both actor and critic. While implementing MADDPG, 
      the final layer was done from uniform distribution in the range of (-3e-3, 3e-3).
 
 # c) Other Details of Implementation :
+     1) Adam Optimizer was used for learning the neural network parameters with a learning rate of 1e-4 for Actor Neural-Net Model and
+        a learning rate of 1e-3 and L2 weight decay of 0.0 for Critic Neural-Net Model fpr each Agent.
 
+     2) For the exploration noice process an Ornstein-Ulhenbeck Process was used with mu=0.(mean), theta=0.15 and sigma=0.2(variance)
+        to enable exploration of the physical environment in the simulation by the 2 Agents controlling the Tennis Rackets movements.  
+        But before adding noise to the action returned for the current state using the current policy the noise quantity was multiplied 
+        by a hyperparameter "noise weight" whose value was gradually decreased by multiplying with the hyperparameter "noise decay rate" 
+        to prefer exploration over exploitation only during the initial stages of training and gradually prefer exploitation over   
+        exploration during later stages of training as the value of the noise weight gradually decreases as training proceeds.
+      
 # HyperParameters Used:
 
 # Plot of Rewards per Episode
