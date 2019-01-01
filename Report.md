@@ -161,6 +161,21 @@ DDPG Algorithm is an off-policy actor-critic algorithm that uses the concept of 
 weights of local networks for both actor and critic. While implementing MADDPG, actor model of each Agent receive as input the individual state (observations) of the agent and output a (two-dimensional) action vector. The critic model of each agent however, receives the states and actions of all actors of all the agents. This approach leads to information sharing between the agents. During training the Critic of each Agent receives extra information such as states observed and actions taken by all other Agents present whereas the Actor of each Agent has information regarding only that pertcular Agent's observed states and actions taken. MADDPG Algorithm can be used to train multiple Agents in cooperative , competitive or mixed cooperative competitive environments. To summarize it can be said that MADDPG Algorithm is a centralized training and decentralized execution algorithm.
 
 # Neural Net Architecture Used:
+# a) Architecture of Actor Neural-Network Model (for each Agent) :
+
+# b) Architecture of Critic Neural-Network Model (for each Agent) :
+
+# c) Other Details of Implementation :
+
+# HyperParameters Used:
+
+# Plot of Rewards per Episode
+
+# CONCLUSION
+
+# Ideas for Future Works (Scope for further improvements)
+
+# REFERENCES :
 
 
 
