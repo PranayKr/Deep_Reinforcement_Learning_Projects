@@ -165,7 +165,7 @@ weights of local networks for both actor and critic. While implementing MADDPG, 
     A multilayer feed-forward Neural Net Architecture was used with 2 Hidden layers each having 256 hidden neurons.The input layer
     has number of input neurons equal to the state size and the the output layer has number of output neurons equal to action size. A
     Leaky ReLU (Rectified Linear Unit) Activation Function was used over the inputs of the 2 hidden layers while a tanh activation 
-    function was used over the input of the output layer. Batch Normalizatio was used over the output of the first hidden layer. Weight 
+    function was used over the input of the output layer. Batch Normalization was used over the output of the first hidden layer. Weight 
     initialization was done for the first 2  layers  from uniform distribution in the negative to positive range of reciprocol of the  
     square root of number of weights for each layer. Weight initialization for the final layer was done from uniform distribution in the 
     range of (-3e-3, 3e-3).
