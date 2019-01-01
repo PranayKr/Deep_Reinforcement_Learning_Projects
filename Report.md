@@ -105,7 +105,7 @@
     of trajectories.The weights Theta of the policy are now updated with the gradient estimate calculated over several iterations
     with the final goal of converging to the weights of an optimal policy.
  
- h) Actor-Critic Methods :
+ k) Actor-Critic Methods :
     Actor-Critic Methods are at the intersection of Value-Based Methods such as Deep-Q Network and Policy-Based Methods such as 
     Reinforce. They use Value-Based Methods to estimate optimal action-value function which is then used as a baseline to reduce
     the variance of Policy-Based Methods. Actor-Critic Agents are more stable than Value-Based Agents and need fewer samples/data
