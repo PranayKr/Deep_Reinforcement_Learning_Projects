@@ -1,1 +1,1 @@
-# Deep_Reinforcement_Learning_Projects
+# Implementation of Multi-Agent Deep Deterministic Policy Gradient (MADDPG) Algorithm to train 2 Agents play a game of Tennis against each other using modified version of Tennis Unity ML-Agent Environment and Multi-Layer Feedforward Neural Network Model with Pytorch Library
