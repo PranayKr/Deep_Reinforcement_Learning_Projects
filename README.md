@@ -99,4 +99,42 @@ The environment is considered solved, when the average of the maximum score per 
          and then download the environment for the Linux operating  system above.)         
 
 # Details of running the Code to Train the Agent / Test the Already Trained Agent :
+  1) First of all clone this repository (https://github.com/PranayKr/Deep_Reinforcement_Learning_Projects.git) on local system.
+  2) Also clone the repository (https://github.com/udacity/deep-reinforcement-learning.git) mentioned previously on local system.
+  3) Now place all the Source code files and pretrained model weights present in this cloned GitHub Repo inside the python/ folder 
+     of the Deep-RL cloned repository folder.
+  4) Next place the folder containing the downloaded unity environment file for Windows (64-bit) OS inside the python/ folder of 
+     the Deep-RL cloned repository folder.
+  5) Open Anaconda prompt shell window and navigate inside the python/ folder in the Deep-RL cloned repository folder.
+  6) Run the command "jupyter notebook" from the Anaconda prompt shell window to open the jupyter notebook web-app tool
+     in the browser from where any of the provided training and testing source codes present in notebooks(.ipynb files)
+     can be opened.
+  7) Before running/executing code in a notebook, change the kernel (IPython Kernel created for drlnd environment) to match
+     the drlnd environment by using the drop-down Kernel menu.  
+  8) The source code present in the provided training and testing notebooks(.ipynb files) can also be collated in 
+     respective new python files(.py files) and then executed directly from the Anaconda prompt shell window using 
+     the command "python <filename.py>".
+     
+  NOTE:
+  1) All the cells can executed at once by choosing the option (Restart and Run All) in the Kernel Tab.
+  2) Please change the name of the (*.pth) file where the model weights are getting saved during training to
+     avoid overwriting of already existing pre-trained model weights existing currently with the same filename.
+              
+  Multi-Agent Deep Deterministic Policy Gradient (MADDPG) Algorithm Training / Testing Details (Files Used) : 
+          
+     For Training : Open the below mentioned Jupyter Notebook and execute all the cells
+        
+     Tennis-Solution-Working.ipynb 
+       
+     Neural Net Model Architecture file Used : MADDPG_Model.py
+     The Unity Agent file used : MADDPG_Agent.py
+        
+     For Testing : open the Jupyter Notebook file "Tennis-MADDPGAgent_Test.ipynb" and run the code to test the 
+                   results obtained using Pre-trained model weights for Actor Neural-Net Model and
+                   Critic Neural-Net Model for each of the 2 Pre-trained Agents
+                      
+     Pretrained Model Weights provided : 1) checkpoint_actor_agent_0.pth  
+                                         2) checkpoint_actor_agent_1.pth
+                                         3) checkpoint_critic_agent_0.pth
+                                         4) checkpoint_critic_agent_1.pth
 
