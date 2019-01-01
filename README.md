@@ -12,3 +12,7 @@ The task is episodic, and in order to solve the environment, both the agents mus
 The environment is considered solved, when the average (over 100 episodes) of the maximum score per episode is at least +0.5.
 
 # Results Showcase :
+
+![tennis_game_multi-agent_untrained](https://user-images.githubusercontent.com/25223180/50571868-5153f880-0dda-11e9-894b-5dee11e09b41.gif)
+
+Untrained Agents moving Rackets at random unable to hit the Tennis Ball
