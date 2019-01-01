@@ -233,7 +233,27 @@ weights of local networks for both actor and critic. While implementing MADDPG, 
   needs to be looked into for multi-agent environments.
 
 # Ideas for Future Works (Scope for further improvements)
+  Below mentioned approaches can be looked into for achieving better results
   
+   1.Using Proximal Policy Optimization (PPO) Algorithm for training muliplle Agents in Tennis Unity ML-Agent Environment
+     (Ref: Proximal Policy Optimization Algorithms (https://arxiv.org/pdf/1707.06347.pdf))
+     
+   2.Using Convolutional Neural Network (CNN) architecture instead of Multilayer Feedforward Neural Network model to train the agent 
+     directly from Pixels (Input Images of the environment) with Proximal Policy Optimization (PPO) Algorithm for training muliplle 
+     Agents in Tennis Unity ML-Agent Environment (Ref1: Using PPO Algorithm to train an Agent to play Atari Pong Game with OpenAI Gym's 
+     PongDeterministic-v4 / vanilla Pong-v4 environments) (Ref2: Proximal Policy Optimization Algorithms
+     (https://arxiv.org/pdf/1707.06347.pdf))
+     
+   3.Using Distributed Distributional Deep Deterministic Policy Gradient (D4PG) Algorithm for Continuous Control Problem Statements such
+     as the Tennis Unity ML-Agent Environment (Ref: DISTRIBUTED DISTRIBUTIONAL DETERMINISTIC POLICY GRADIENTS
+     (https://openreview.net/pdf?id=SyZipzbCb)) especially for training muliplle Agents.
+     
+   4.Using A3C Algorithm for solving Continuous Control Problem Statements such as the Tennis Unity ML-Agent Environment especially for 
+     training muliplle Agents.(Ref: Asynchronous Methods for Deep Reinforcement Learning (https://arxiv.org/pdf/1602.01783.pdf)) 
+     
+   5.Solving a more difficult Continuous Control Environment (Unity ML-Agent "Soccer Twos" Environment) where the goal is to train a 
+     small team of agents to play the game of soccer using MADDPG algorithm / PPO Algorithm / D4PG Algorithm / A3C Algorithm.
+     
 
 # REFERENCES :
 
