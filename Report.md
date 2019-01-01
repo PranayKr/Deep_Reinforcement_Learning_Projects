@@ -183,7 +183,7 @@ weights of local networks for both actor and critic. While implementing MADDPG, 
 
 # c) Other Details of Implementation :
      1) Adam Optimizer was used for learning the neural network parameters with a learning rate of 1e-4 for Actor Neural-Net Model and
-        a learning rate of 1e-3 and L2 weight decay of 0.0 for Critic Neural-Net Model fpr each Agent.
+        a learning rate of 1e-3 and L2 weight decay of 0.0 for Critic Neural-Net Model for each Agent.
 
      2) For the exploration noice process an Ornstein-Ulhenbeck Process was used with mu=0.(mean), theta=0.15 and sigma=0.2(variance)
         to enable exploration of the physical environment in the simulation by the 2 Agents controlling the Tennis Rackets movements.  
