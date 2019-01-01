@@ -256,7 +256,8 @@ weights of local networks for both actor and critic. While implementing MADDPG, 
      
 
 # REFERENCES :
-
-
-
-   
+  
+  1) MULTI-AGENT ACTOR-CRITIC FOR MIXED COOPERATIVE-COMPETITIVE ENVIRONMENTS
+     (https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf)
+  
+  2) CONTINUOUS CONTROL WITH DEEP REINFORCEMENT LEARNING (https://arxiv.org/pdf/1509.02971.pdf)
