@@ -15,4 +15,8 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ![tennis_game_multi-agent_untrained](https://user-images.githubusercontent.com/25223180/50571868-5153f880-0dda-11e9-894b-5dee11e09b41.gif)
 
-Untrained Agents moving Rackets at random unable to hit the Tennis Ball
+# Untrained Agents moving Rackets at random unable to hit the Tennis Ball
+
+![tennis_game_multi-agent_trained](https://user-images.githubusercontent.com/25223180/50571890-b3146280-0dda-11e9-8f77-3ffcea5df3f2.gif)
+
+# Trained Agents properly playing Tennis controlling Rackets to consistently hit the Tennis Ball over the Net
