@@ -219,8 +219,9 @@ weights of local networks for both actor and critic. While implementing MADDPG, 
 
 # Plot of Rewards per Episode
   Multi-Agent Deep Deterministic Policy Gradient (MADDPG) Algorithm Results :
+  ![maddpg_graph_results](https://user-images.githubusercontent.com/25223180/50574223-ff2acb80-0e09-11e9-8050-2a148cbe17ec.PNG)
+  A score of +0.5 achieved in 2877 episodes
   
-
 # CONCLUSION
 
 # Ideas for Future Works (Scope for further improvements)
