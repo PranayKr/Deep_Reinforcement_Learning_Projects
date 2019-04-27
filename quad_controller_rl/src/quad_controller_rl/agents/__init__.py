@@ -1,0 +1,10 @@
+from quad_controller_rl.agents.base_agent import BaseAgent
+from quad_controller_rl.agents.policy_search import RandomPolicySearch
+from quad_controller_rl.agents.DeepQ_Agent import DQN_Agent
+from quad_controller_rl.agents.ounoise import OUNoise
+from quad_controller_rl.agents.replay_buffer import ReplayBuffer
+#from quad_controller_rl.agents.policy_gradients import DDPG
+#from quad_controller_rl.agents.policy_gradients_combined import DDPG
+#from quad_controller_rl.agents.policy_gradients_test import DDPG
+from quad_controller_rl.agents.policy_gradients_test_combined import DDPG
+
