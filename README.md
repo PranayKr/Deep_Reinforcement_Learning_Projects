@@ -23,8 +23,8 @@ A Trained Quadcopter successfully flying autonomously by taking off , hovering a
     <td>Landing</td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/25223180/53681408-53b9cc80-3d0f-11e9-9dde-4bd8b667382d.png"></td>
-    <td><img src="https://user-images.githubusercontent.com/25223180/53681408-53b9cc80-3d0f-11e9-9dde-4bd8b667382d.png"></td>
-    <td><img src="https://user-images.githubusercontent.com/25223180/53681614-012ddf80-3d12-11e9-82f4-1aa8abece6e3.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/25223180/56849853-c44c2680-6917-11e9-8f85-732cc4a41600.gif"></td>
+    <td><img src="https://user-images.githubusercontent.com/25223180/56849856-cb733480-6917-11e9-9aea-e50c9e95f6e0.gif"></td>
+    <td><img src="https://user-images.githubusercontent.com/25223180/56849859-d201ac00-6917-11e9-9515-4b2f0b148c88.gif"></td>
   </tr>
 </table>
