@@ -15,7 +15,7 @@ A Trained Quadcopter successfully flying autonomously by taking off , hovering a
 
 <table>
   <tr>
-    <td colspan="3" align="center">Lake Track</td>
+    <td colspan="3" align="center">Quadcopter Training Stages</td>
   </tr>
   <tr>
     <td> </td>
